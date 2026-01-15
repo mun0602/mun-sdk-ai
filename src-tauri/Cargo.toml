@@ -1,6 +1,6 @@
 [package]
 name = "mun-sdk-ai-v2"
-version = "3.21.1"
+version = "3.21.2"
 description = "MUN SDK AI V2 - AI Android Controller with Enhanced Features"
 authors = ["MUN Team"]
 edition = "2021"
