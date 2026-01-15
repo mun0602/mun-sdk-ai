@@ -1,6 +1,6 @@
 {
   "name": "mun-sdk-ai-v2",
-  "version": "3.21.0",
+  "version": "3.21.1",
   "description": "MUN SDK AI V2 - AI Android Controller with Enhanced Features",
   "main": "main.js",
   "scripts": {
