@@ -24,7 +24,7 @@ lazy_static::lazy_static! {
 
 /// Helper to create a tokio command with hidden window on Windows
 fn new_async_command(program: &str) -> tokio::process::Command {
-    let mut std_cmd = std::process::Command::new(program);
+    let std_cmd = std::process::Command::new(program);
     #[cfg(windows)]
     std_cmd.creation_flags(CREATE_NO_WINDOW);
     tokio::process::Command::from(std_cmd)

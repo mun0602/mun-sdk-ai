@@ -25,6 +25,9 @@ const MAX_CONCURRENT_SCANS: usize = 20;
 /// Global scrcpy path (set from config)
 static SCRCPY_PATH: std::sync::RwLock<Option<String>> = std::sync::RwLock::new(None);
 
+/// Global ADB path (set from config)
+static ADB_PATH: std::sync::RwLock<Option<String>> = std::sync::RwLock::new(None);
+
 /// Set scrcpy path from settings
 pub fn set_scrcpy_path(path: String) {
     if let Ok(mut guard) = SCRCPY_PATH.write() {
@@ -37,9 +40,55 @@ fn get_scrcpy_path() -> Option<String> {
     SCRCPY_PATH.read().ok().and_then(|g| g.clone())
 }
 
+/// Set ADB path from settings
+pub fn set_adb_path(path: String) {
+    if let Ok(mut guard) = ADB_PATH.write() {
+        *guard = if path.is_empty() { None } else { Some(path) };
+    }
+}
+
+/// Get ADB executable path
+fn get_adb_executable() -> String {
+    // Check if custom path is set
+    if let Ok(guard) = ADB_PATH.read() {
+        if let Some(ref path) = *guard {
+            if !path.is_empty() {
+                return path.clone();
+            }
+        }
+    }
+    
+    // Try to find ADB in common locations on macOS
+    let mut common_paths: Vec<String> = vec![
+        "/usr/local/bin/adb".to_string(),
+        "/opt/homebrew/bin/adb".to_string(),
+    ];
+    
+    if let Ok(home) = std::env::var("HOME") {
+        common_paths.push(format!("{}/Library/Android/sdk/platform-tools/adb", home));
+    }
+    if let Ok(android_home) = std::env::var("ANDROID_HOME") {
+        common_paths.push(format!("{}/platform-tools/adb", android_home));
+    }
+    if let Ok(android_sdk) = std::env::var("ANDROID_SDK_ROOT") {
+        common_paths.push(format!("{}/platform-tools/adb", android_sdk));
+    }
+    
+    for path in &common_paths {
+        if std::path::Path::new(path).exists() {
+            println!("[ADB] Found ADB at: {}", path);
+            return path.clone();
+        }
+    }
+    
+    // Default to "adb" in PATH
+    println!("[ADB] Using 'adb' from PATH");
+    "adb".to_string()
+}
+
 /// Helper to create a command with hidden window on Windows
 fn new_command(program: &str) -> Command {
-    let mut cmd = Command::new(program);
+    let cmd = Command::new(program);
     #[cfg(windows)]
     cmd.creation_flags(CREATE_NO_WINDOW);
     cmd
@@ -82,7 +131,8 @@ const EMULATOR_PORTS: &[u16] = &[
 /// Chạy lệnh ADB với các tham số
 #[command]
 pub async fn run_adb_command(args: Vec<String>) -> Result<AdbResult, String> {
-    let output = new_command("adb")
+    let adb_exe = get_adb_executable();
+    let output = new_command(&adb_exe)
         .args(&args)
         .output()
         .map_err(|e| format!("Không thể chạy ADB: {}", e))?;
@@ -100,7 +150,8 @@ pub async fn run_adb_command(args: Vec<String>) -> Result<AdbResult, String> {
 /// Lấy danh sách thiết bị đã kết nối (adb devices + getprop để lấy thông tin chi tiết)
 #[command]
 pub async fn get_connected_devices() -> Result<Vec<DeviceInfo>, String> {
-    let output = new_command("adb")
+    let adb_exe = get_adb_executable();
+    let output = new_command(&adb_exe)
         .args(["devices", "-l"])
         .output()
         .map_err(|e| format!("Không thể chạy ADB: {}", e))?;

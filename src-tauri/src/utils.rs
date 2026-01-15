@@ -10,7 +10,7 @@ const CREATE_NO_WINDOW: u32 = 0x08000000;
 
 /// Helper to create a command with hidden window on Windows
 fn new_command(program: &str) -> Command {
-    let mut cmd = Command::new(program);
+    let cmd = Command::new(program);
     #[cfg(windows)]
     cmd.creation_flags(CREATE_NO_WINDOW);
     cmd
