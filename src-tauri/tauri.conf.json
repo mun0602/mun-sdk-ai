@@ -51,17 +51,15 @@
     },
     "createUpdaterArtifacts": "v1Compatible"
   },
-  "productName": "MUN SDK AI",
-  "updater": {
-    "active": true,
-    "endpoints": [
-      "https://raw.githubusercontent.com/mun0602/droidrun_gui_tauri_v2/main/updater.json"
-    ],
-    "pubkey": "YOUR_PUBLIC_KEY_HERE"
-  },
   "plugins": {
     "shell": {
       "open": true
+    },
+    "updater": {
+      "endpoints": [
+        "https://raw.githubusercontent.com/mun0602/droidrun_gui_tauri_v2/main/updater.json"
+      ],
+      "pubkey": "YOUR_PUBLIC_KEY_HERE"
     }
   }
 }
