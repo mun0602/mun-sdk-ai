@@ -4,37 +4,37 @@
 #![allow(ambiguous_glob_reexports)]
 
 mod adb;
-mod agents;
-mod ai_client;
-mod batch_executor;
+// mod agents;
+// mod ai_client;
+// mod batch_executor;
 mod config;
-mod custom_tools;
-mod device_tools;
+// mod custom_tools;
+// mod device_tools;
 mod emulator;
 mod license;
 mod macro_cmd;
 mod portal_client;
-mod prompt_templates;
+// mod prompt_templates;
 mod task;
-mod telemetry;
-mod trajectory;
+// mod telemetry;
+// mod trajectory;
 mod utils;
 mod workflow;
 
 pub use adb::*;
-pub use agents::*;
-pub use ai_client::*;
-pub use batch_executor::*;
+// pub use agents::*;
+// pub use ai_client::*;
+// pub use batch_executor::*;
 pub use config::*;
-pub use custom_tools::*;
-pub use device_tools::*;
+// pub use custom_tools::*;
+// pub use device_tools::*;
 pub use emulator::*;
 pub use license::*;
 pub use macro_cmd::*;
-pub use prompt_templates::*;
+// pub use prompt_templates::*;
 pub use task::*;
-pub use telemetry::*;
-pub use trajectory::*;
+// pub use telemetry::*;
+// pub use trajectory::*;
 pub use utils::*;
 pub use workflow::*;
 
@@ -598,7 +598,7 @@ pub fn run() {
             log::info!("MUN SDK AI đang khởi động...");
 
             // Initialize telemetry (check env var)
-            telemetry::init_telemetry();
+            // telemetry::init_telemetry();
 
             // Load config và set paths
             if let Ok(config) = config::load_config_sync() {
@@ -658,20 +658,20 @@ pub fn run() {
             extract_otp_from_text,
             call_rest_api,
             extract_structured_data,
-            // Custom Tools commands
-            custom_tools::list_custom_tools,
-            custom_tools::run_custom_tool,
-            custom_tools::get_custom_tools_prompt,
-            custom_tools::reload_custom_tools_cmd,
-            // AI Client commands (centralized LLM calls with tracing)
-            ai_client::ai_chat_completion,
-            ai_client::ai_generate_python,
-            ai_client::ai_extract_data,
-            ai_client::send_telemetry,
-            // Telemetry commands
-            telemetry::send_telemetry_event,
-            telemetry::is_telemetry_enabled_cmd,
-            telemetry::get_telemetry_status,
+            // Custom Tools commands - DISABLED
+            // custom_tools::list_custom_tools,
+            // custom_tools::run_custom_tool,
+            // custom_tools::get_custom_tools_prompt,
+            // custom_tools::reload_custom_tools_cmd,
+            // AI Client commands - DISABLED
+            // ai_client::ai_chat_completion,
+            // ai_client::ai_generate_python,
+            // ai_client::ai_extract_data,
+            // ai_client::send_telemetry,
+            // Telemetry commands - DISABLED
+            // telemetry::send_telemetry_event,
+            // telemetry::is_telemetry_enabled_cmd,
+            // telemetry::get_telemetry_status,
             // License commands
             license::check_license,
             license::activate_license,
@@ -756,36 +756,33 @@ pub fn run() {
             workflow::record_workflow,
             workflow::execute_actions,
             workflow::run_droidrun_task,
-            // Custom tools commands
-            custom_tools::list_custom_tools,
-            custom_tools::run_custom_tool,
-            custom_tools::get_custom_tools_prompt,
-            // Batch Executor commands (Multi-device)
-            batch_executor::start_batch_execution,
-            batch_executor::cancel_batch_execution,
-            batch_executor::get_batch_status,
-            batch_executor::get_running_batches,
-            batch_executor::get_available_devices_for_batch,
-            batch_executor::run_workflow_on_all_devices,
-            batch_executor::run_workflow_on_devices,
-            // Trajectory commands (Debug & Playback)
-            trajectory::list_trajectories_cmd,
-            trajectory::load_trajectory_cmd,
-            trajectory::delete_trajectory_cmd,
-            trajectory::get_trajectory_screenshot_path,
-            // Device Tools commands (Standardized Device Control)
-            device_tools::create_android_tools,
-            device_tools::device_tap_by_index,
-            device_tools::device_swipe,
-            device_tools::device_get_state,
-            device_tools::start_trajectory_recording,
-            device_tools::stop_trajectory_recording,
-            // Multi-Agent System commands
-            agents::run_agent_task,
-            // Prompt Templates commands
-            prompt_templates::render_agent_prompt,
-            prompt_templates::get_default_prompts,
-            prompt_templates::validate_prompt_template,
+            // Custom tools commands - DISABLED (duplicate)
+            // Batch Executor commands - DISABLED
+            // batch_executor::start_batch_execution,
+            // batch_executor::cancel_batch_execution,
+            // batch_executor::get_batch_status,
+            // batch_executor::get_running_batches,
+            // batch_executor::get_available_devices_for_batch,
+            // batch_executor::run_workflow_on_all_devices,
+            // batch_executor::run_workflow_on_devices,
+            // Trajectory commands - DISABLED
+            // trajectory::list_trajectories_cmd,
+            // trajectory::load_trajectory_cmd,
+            // trajectory::delete_trajectory_cmd,
+            // trajectory::get_trajectory_screenshot_path,
+            // Device Tools commands - DISABLED
+            // device_tools::create_android_tools,
+            // device_tools::device_tap_by_index,
+            // device_tools::device_swipe,
+            // device_tools::device_get_state,
+            // device_tools::start_trajectory_recording,
+            // device_tools::stop_trajectory_recording,
+            // Multi-Agent System commands - DISABLED
+            // agents::run_agent_task,
+            // Prompt Templates commands - DISABLED
+            // prompt_templates::render_agent_prompt,
+            // prompt_templates::get_default_prompts,
+            // prompt_templates::validate_prompt_template,
         ])
         .run(tauri::generate_context!())
         .expect("Lỗi khởi chạy ứng dụng Tauri");
