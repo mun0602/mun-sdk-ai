@@ -1,0 +1,298 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/iconcombo",
+    "className": "FrameLayout",
+    "text": "Page info",
+    "bounds": "14,36,80,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "https://dtdp.bio/",
+    "bounds": "80,36,453,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.browser:id/tab_switcher",
+    "className": "ImageButton",
+    "text": "Page manager",
+    "bounds": "468,36,540,114",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "🌸🌸🌸 | dtdp.bio",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "wrapper",
+    "className": "View",
+    "text": "wrapper",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,202",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "View",
+    "text": "Logo 🌸🌸🌸 ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "24,126,250,190",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,126,84,189",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "Image",
+    "text": "Logo",
+    "bounds": "27,129,81,186",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "🌸🌸🌸",
+    "bounds": "108,130,207,163",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "108,171,250,186",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,126,516,189",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "Button",
+    "text": "android.widget.Button",
+    "bounds": "456,126,516,189",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "main",
+    "className": "View",
+    "text": "main",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuyển tập nhạc do Đệ tử Đại Pháp sáng tác (tiếng Trung)",
+    "bounds": "36,115,504,282",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "View",
+    "text": "Đọc bài viết: Tuyển tập nhạc do Đệ tử Đại Pháp sáng tác (tiếng Trung)",
+    "bounds": "36,115,504,282",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,115,504,282",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "AUDIO",
+    "bounds": "66,144,124,165",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "post-title--tuyen-tap-nhac-do-de-tu-dai-phap-sang-tac-tieng-trung",
+    "className": "TextView",
+    "text": "Tuyển tập nhạc do Đệ tử Đại Pháp sáng tác (tiếng Trung)",
+    "bounds": "66,180,474,255",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuyển tập Phát thanh Minh Huệ Kiên trì học thuộc Pháp",
+    "bounds": "36,327,504,493",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "View",
+    "text": "Đọc bài viết: Tuyển tập Phát thanh Minh Huệ Kiên trì học thuộc Pháp",
+    "bounds": "36,327,504,493",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,327,504,493",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "AUDIO",
+    "bounds": "66,357,124,376",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "post-title--htp",
+    "className": "TextView",
+    "text": "Tuyển tập Phát thanh Minh Huệ Kiên trì học thuộc Pháp",
+    "bounds": "66,393,474,468",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "View",
+    "text": "Phát thanh Minh huệ: Hồi ức về Sư Phụ",
+    "bounds": "36,540,504,705",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "View",
+    "text": "Đọc bài viết: Phát thanh Minh huệ: Hồi ức về Sư Phụ",
+    "bounds": "36,540,504,705",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,540,504,705",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "AUDIO",
+    "bounds": "66,570,124,589",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "post-title--phat-thanh-minh-hue-hoi-uc-ve-su-phu",
+    "className": "TextView",
+    "text": "Phát thanh Minh huệ: Hồi ức về Sư Phụ",
+    "bounds": "66,604,474,681",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuyển tập bài chia sẻ về Tâm an dật",
+    "bounds": "36,753,504,918",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "View",
+    "text": "Đọc bài viết: Tuyển tập bài chia sẻ về Tâm an dật",
+    "bounds": "36,753,504,918",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,753,504,918",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "TUYỂN TẬP",
+    "bounds": "66,781,168,801",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "post-title--tuyen-tap-bai-chia-se-ve-tam-an-dat",
+    "className": "TextView",
+    "text": "Tuyển tập bài chia sẻ về Tâm an dật",
+    "bounds": "66,816,474,892",
+    "children": []
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/iconcombo",
+    "className": "FrameLayout",
+    "text": "Page info",
+    "bounds": "14,36,80,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "https://dtdp.bio/",
+    "bounds": "80,36,453,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.browser:id/tab_switcher",
+    "className": "ImageButton",
+    "text": "Page manager",
+    "bounds": "468,36,540,114",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "An dật sẽ dẫn đến huỷ diệt – 🌸🌸🌸",
+    "bounds": "0,115,540,960",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "wrapper",
+    "className": "View",
+    "text": "wrapper",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,115,540,204",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "View",
+    "text": "Logo 🌸🌸🌸 ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "24,127,250,192",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,127,84,190",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "Image",
+    "text": "Logo",
+    "bounds": "27,130,81,187",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "🌸🌸🌸",
+    "bounds": "108,132,207,165",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "108,172,250,187",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,127,516,190",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "Button",
+    "text": "android.widget.Button",
+    "bounds": "456,127,516,190",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "main",
+    "className": "View",
+    "text": "main",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "0,115,540,960",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,114,504,960",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Cảnh tỉnh về sự nguy hiểm của việc chìm đắm trong sự thoải mái thế gian.",
+    "bounds": "36,114,504,163",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Thuận theo việc thời gian được kéo dài, trong đội ngũ tu luyện Đại Pháp, có người có thể theo kịp tiến trình Chính Pháp, cũng có người không theo kịp, rớt xuống, buông lơi, rớt lại phía sau, trốn tránh, tất cả đều có, những sự việc này cũng là bình thường.",
+    "bounds": "36,220,504,457",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Đáng tiếc là, có những người đã từng dưới áp lực mạnh mẽ của cuộc đàn áp mà kiên định tu luyện Đại Pháp, đã bước qua rồi, nhưng khi hoàn cảnh buông lỏng lại dừng lại không bước tiếp nữa, chạy ngược lại. Họ ngày ngày xa rời tu luyện Đại Pháp, cũng chính là ngày càng rời xa ngôi nhà Thiên quốc của mình...",
+    "bounds": "36,490,504,805",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "“Thực ra, không tinh tấn chính là huỷ đi Thần, huỷ đi chúng sinh, huỷ đi thế giới.”",
+    "bounds": "36,838,504,919",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Lý do thứ nhất là mục tiêu không rõ ràng, thiếu động lực tiến về phía trước. Sư phụ giảng: “Nếu như đến tận bây giờ chư vị vẫn chưa rõ thế nào là đệ tử Chính Pháp, thì không thể từ trong ma nạn trước mắt này mà bước ra được, thì sẽ bị tâm cầu yên ổn của con người thế gian dẫn đến tà ngộ...”",
+    "bounds": "36,952,504,960",
+    "children": []
+  }
+]

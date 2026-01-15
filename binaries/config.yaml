@@ -1,0 +1,15 @@
+# CLI Proxy API Config for MUN SDK AI
+host: "127.0.0.1"
+port: 8000
+# Management API - set a simple key for local use
+remote-management:
+  allow-remote: false
+  secret-key: "$2a$10$Ps8zssu4eLYPzCaYULTsQeNDFO2fR7.RU3WorrOZcz8BRHNNgrpfe"
+  disable-control-panel: false
+# Auth directory
+auth-dir: "~/.cli-proxy-api"
+# API keys for clients
+api-keys:
+  - "munsdk-local-key"
+debug: true
+logging-to-file: false

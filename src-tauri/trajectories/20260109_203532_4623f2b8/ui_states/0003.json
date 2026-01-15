@@ -1,0 +1,66 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "看了这么久，留个关注再走吧！",
+    "bounds": "288,690,792,740",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "765,571,904,711",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "主播",
+    "bounds": "519,936,563,966",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "319,998,761,1122",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "关注并退出",
+    "bounds": "363,1033,717,1086",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "319,1141,761,1265",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "退出直播间",
+    "bounds": "363,1176,717,1229",
+    "children": []
+  }
+]

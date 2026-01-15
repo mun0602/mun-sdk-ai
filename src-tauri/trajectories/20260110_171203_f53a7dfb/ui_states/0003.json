@@ -1,0 +1,274 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/iconcombo",
+    "className": "FrameLayout",
+    "text": "Page info",
+    "bounds": "14,36,80,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "https://www.google.com/",
+    "bounds": "80,36,453,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.browser:id/tab_switcher",
+    "className": "ImageButton",
+    "text": "Page manager",
+    "bounds": "468,36,540,114",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "Google",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "wrap",
+    "className": "View",
+    "text": "wrap",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "iwrap",
+    "className": "View",
+    "text": "iwrap",
+    "bounds": "0,114,540,567",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "mog",
+    "className": "View",
+    "text": "mog",
+    "bounds": "0,114,540,189",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "gb",
+    "className": "View",
+    "text": "gb",
+    "bounds": "0,114,540,189",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "xRRFWe",
+    "className": "View",
+    "text": "?sca_esv=47635443e4d56f69",
+    "bounds": "0,114,75,189",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "All",
+    "bounds": "90,114,123,189",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "View",
+    "text": "Images",
+    "bounds": "148,114,225,189",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Images",
+    "bounds": "151,138,222,165",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "gbr",
+    "className": "View",
+    "text": "gbr",
+    "bounds": "402,129,525,174",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "gbv",
+    "className": "View",
+    "text": "gbv",
+    "bounds": "411,129,516,174",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "Sign in",
+    "bounds": "411,129,516,174",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Sign in",
+    "bounds": "411,129,516,174",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "hplogoo",
+    "className": "View",
+    "text": "hplogoo",
+    "bounds": "132,234,408,354",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "hplogo",
+    "className": "Image",
+    "text": "googlelogo_tablet_tier1_hp_color_183x64dp",
+    "bounds": "132,234,408,330",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "main",
+    "className": "View",
+    "text": "main",
+    "bounds": "0,366,540,501",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "sfcnt",
+    "className": "View",
+    "text": "sfcnt",
+    "bounds": "12,366,528,426",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "tsf",
+    "className": "View",
+    "text": "tsf",
+    "bounds": "12,366,528,423",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "12,366,528,423",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "tsfi",
+    "className": "View",
+    "text": "tsfi",
+    "bounds": "12,366,471,423",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "mib",
+    "className": "EditText",
+    "text": "mib",
+    "bounds": "24,369,435,423",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "tsbb",
+    "className": "Button",
+    "text": "tsbb",
+    "bounds": "471,366,528,423",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "footer",
+    "className": "View",
+    "text": "footer",
+    "bounds": "0,891,540,960",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,921,540,927",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,939,540,960",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "View",
+    "text": "Privacy",
+    "bounds": "183,948,249,960",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Privacy",
+    "bounds": "183,948,249,960",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "View",
+    "text": "Terms",
+    "bounds": "300,948,357,960",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Terms",
+    "bounds": "300,948,357,960",
+    "children": []
+  }
+]

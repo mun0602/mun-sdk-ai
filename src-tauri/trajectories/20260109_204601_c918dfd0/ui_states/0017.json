@@ -1,0 +1,674 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,114,1920",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.smile.gifmaker:id/background",
+    "className": "ImageView",
+    "text": "设置封面",
+    "bounds": "0,0,1080,424",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.smile.gifmaker:id/user_content_status",
+    "className": "ViewGroup",
+    "text": "头像",
+    "bounds": "17,383,347,537",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.smile.gifmaker:id/user_content_avatar",
+    "className": "ViewGroup",
+    "text": "头像",
+    "bounds": "52,383,311,537",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ImageView",
+    "text": "头像",
+    "bounds": "61,383,303,530",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "粉丝数，6个",
+    "bounds": "339,414,554,523",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.smile.gifmaker:id/new_follower_notify",
+    "className": "TextView",
+    "text": "8",
+    "bounds": "462,414,503,448",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.smile.gifmaker:id/following_layout",
+    "className": "ViewGroup",
+    "text": "关注数，74个",
+    "bounds": "576,414,791,523",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.smile.gifmaker:id/like_layout",
+    "className": "ViewGroup",
+    "text": "获赞数，0个",
+    "bounds": "813,414,1028,523",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/user_name_tv",
+    "className": "TextView",
+    "text": "海燕牛奶冰🉑",
+    "bounds": "52,556,433,645",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.smile.gifmaker:id/medal_add_entrance_viewstub",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/medal_add_entrance_viewstub",
+    "bounds": "455,568,590,634",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.smile.gifmaker:id/profile_medal_add_entranceTv",
+    "className": "TextView",
+    "text": "勋章",
+    "bounds": "502,579,568,623",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/profile_user_kwai_id",
+    "className": "TextView",
+    "text": "快手号：5152950884",
+    "bounds": "52,652,374,691",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "二维码",
+    "bounds": "374,650,440,694",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/user_text_wrapper",
+    "className": "ScrollView",
+    "text": "com.smile.gifmaker:id/user_text_wrapper",
+    "bounds": "52,707,1028,885",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.smile.gifmaker:id/user_text",
+    "className": "TextView",
+    "text": "兴趣爱好：🐧裙\n学校：🌸543🌸074🌸965🌸\n职业：🍑🍑🍑🍑",
+    "bounds": "52,707,1028,885",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.smile.gifmaker:id/profile_fans_tags",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/profile_fans_tags",
+    "bounds": "35,888,716,957",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.smile.gifmaker:id/label_layout",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/label_layout",
+    "bounds": "52,907,152,957",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.smile.gifmaker:id/label_name",
+    "className": "TextView",
+    "text": "女",
+    "bounds": "102,912,135,951",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.smile.gifmaker:id/label_layout",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/label_layout",
+    "bounds": "169,907,434,957",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.smile.gifmaker:id/label_name",
+    "className": "TextView",
+    "text": "添加年龄标签",
+    "bounds": "219,912,417,951",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.smile.gifmaker:id/label_layout",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/label_layout",
+    "bounds": "451,907,716,957",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.smile.gifmaker:id/label_name",
+    "className": "TextView",
+    "text": "添加亲密关系",
+    "bounds": "501,912,699,951",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "RecyclerView",
+    "text": "androidx.recyclerview.widget.RecyclerView",
+    "bounds": "0,957,1080,1123",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,957,33,1123",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "SHOP_HOME",
+    "bounds": "33,957,236,1123",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "快手小店",
+    "bounds": "68,1084,200,1123",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "FREQUENTLY_VISIT",
+    "bounds": "236,957,439,1123",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "常看的人",
+    "bounds": "271,1084,403,1123",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "KSHOP_FANS_GROUP_SELF",
+    "bounds": "439,957,642,1123",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "购物团",
+    "bounds": "491,1084,590,1123",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "OFFLINE_MODE",
+    "bounds": "642,957,845,1123",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "离线模式",
+    "bounds": "677,1084,809,1123",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "HISTORY_RECORD",
+    "bounds": "845,957,1048,1123",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "历史记录",
+    "bounds": "880,1084,1012,1123",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "VIEW_LATER",
+    "bounds": "1048,957,1080,1123",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "com.smile.gifmaker:id/profile_settings_button_container",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/profile_settings_button_container",
+    "bounds": "52,1172,532,1271",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "com.smile.gifmaker:id/profile_settings_button",
+    "className": "TextView",
+    "text": "完善资料 60%",
+    "bounds": "52,1172,532,1271",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "com.smile.gifmaker:id/profile_add_friends_viewstub",
+    "className": "ViewGroup",
+    "text": "添加朋友",
+    "bounds": "548,1172,1028,1271",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "com.smile.gifmaker:id/profile_add_friends",
+    "className": "TextView",
+    "text": "添加朋友",
+    "bounds": "706,1172,870,1271",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1271,1080,1913",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "com.smile.gifmaker:id/label",
+    "className": "TextView",
+    "text": "你可能感兴趣的人",
+    "bounds": "52,1320,364,1366",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "com.smile.gifmaker:id/more",
+    "className": "TextView",
+    "text": "隐藏",
+    "bounds": "963,1318,1039,1370",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "com.smile.gifmaker:id/recommend_user_list",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/recommend_user_list",
+    "bounds": "0,1393,1080,1913",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "52,1393,437,1913",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "124,1421,366,1663",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageView",
+    "text": "删除",
+    "bounds": "376,1410,420,1454",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "詩🚪小呆姥姥^౪ᩚ",
+    "bounds": "101,1685,388,1740",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "K.忘  铃🍐关注了她",
+    "bounds": "74,1746,415,1794",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "80,1808,409,1885",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "210,1823,280,1871",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "461,1393,846,1913",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "533,1421,775,1663",
+    "children": []
+  },
+  {
+    "index": 60,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageView",
+    "text": "删除",
+    "bounds": "785,1410,829,1454",
+    "children": []
+  },
+  {
+    "index": 61,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "芊芊ok！",
+    "bounds": "574,1685,733,1740",
+    "children": []
+  },
+  {
+    "index": 62,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "你可能认识的人",
+    "bounds": "483,1746,824,1790",
+    "children": []
+  },
+  {
+    "index": 63,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "489,1808,818,1885",
+    "children": []
+  },
+  {
+    "index": 64,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "619,1823,689,1871",
+    "children": []
+  },
+  {
+    "index": 65,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "870,1393,1080,1913",
+    "children": []
+  },
+  {
+    "index": 66,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "942,1421,1080,1663",
+    "children": []
+  },
+  {
+    "index": 67,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "别骗我",
+    "bounds": "1004,1685,1080,1740",
+    "children": []
+  },
+  {
+    "index": 68,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "你可能认识的人",
+    "bounds": "892,1746,1080,1790",
+    "children": []
+  },
+  {
+    "index": 69,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "898,1808,1080,1885",
+    "children": []
+  },
+  {
+    "index": 70,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "1028,1823,1080,1871",
+    "children": []
+  },
+  {
+    "index": 71,
+    "resourceId": "com.smile.gifmaker:id/action_bar_weekly_review_entrance",
+    "className": "LinearLayout",
+    "text": "周报入口",
+    "bounds": "471,82,791,170",
+    "children": []
+  },
+  {
+    "index": 72,
+    "resourceId": "com.smile.gifmaker:id/weekly_review_text_update",
+    "className": "TextView",
+    "text": "上周数据更新",
+    "bounds": "553,101,769,150",
+    "children": []
+  },
+  {
+    "index": 73,
+    "resourceId": "com.smile.gifmaker:id/actionbar_search_stub",
+    "className": "ImageView",
+    "text": "搜索",
+    "bounds": "813,66,923,187",
+    "children": []
+  },
+  {
+    "index": 74,
+    "resourceId": "com.smile.gifmaker:id/more_btn",
+    "className": "ImageButton",
+    "text": "侧边栏入口",
+    "bounds": "934,66,1044,187",
+    "children": []
+  },
+  {
+    "index": 75,
+    "resourceId": "com.smile.gifmaker:id/tab_layout",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/tab_layout",
+    "bounds": "0,1786,1080,1920",
+    "children": []
+  },
+  {
+    "index": 76,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "首页",
+    "bounds": "0,1786,216,1920",
+    "children": []
+  },
+  {
+    "index": 77,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "首页",
+    "bounds": "62,1827,154,1881",
+    "children": []
+  },
+  {
+    "index": 78,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "精选",
+    "bounds": "216,1786,432,1920",
+    "children": []
+  },
+  {
+    "index": 79,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "精选",
+    "bounds": "278,1827,370,1881",
+    "children": []
+  },
+  {
+    "index": 80,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "消息",
+    "bounds": "648,1786,864,1920",
+    "children": []
+  },
+  {
+    "index": 81,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "消息",
+    "bounds": "710,1827,802,1881",
+    "children": []
+  },
+  {
+    "index": 82,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "我",
+    "bounds": "864,1786,1080,1920",
+    "children": []
+  },
+  {
+    "index": 83,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "我",
+    "bounds": "949,1827,995,1881",
+    "children": []
+  },
+  {
+    "index": 84,
+    "resourceId": "com.smile.gifmaker:id/shoot_container",
+    "className": "ViewGroup",
+    "text": "拍摄",
+    "bounds": "437,1786,643,1920",
+    "children": []
+  }
+]

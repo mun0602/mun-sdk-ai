@@ -1,0 +1,90 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "猜你对这些直播感兴趣",
+    "bounds": "340,553,740,602",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "728,516,844,633",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "直播中",
+    "bounds": "301,693,363,719",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "直播中",
+    "bounds": "576,693,638,719",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "532人在看",
+    "bounds": "277,1045,387,1077",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "1.3万人在看",
+    "bounds": "553,1045,679,1077",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "356,1111,724,1214",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "更多直播",
+    "bounds": "392,1140,688,1184",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "356,1230,724,1333",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "退出直播间",
+    "bounds": "392,1260,688,1304",
+    "children": []
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "description": "auto xem video kuaishou",
+  "timestamp": "20260109_180038",
+  "total_actions": 9,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: 'Kuaishou' (TextView) at coordinates (205, 150)",
+      "x": 205,
+      "y": 150,
+      "element_index": 4,
+      "element_text": "Kuaishou",
+      "element_bounds": "141,99,270,201"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 600) to (270, 200) in 500 milliseconds",
+      "start_x": 270,
+      "start_y": 600,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 3.0 seconds",
+      "duration": 3.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 600) to (270, 200) in 500 milliseconds",
+      "start_x": 270,
+      "start_y": 600,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 3.0 seconds",
+      "duration": 3.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 600) to (270, 200) in 500 milliseconds",
+      "start_x": 270,
+      "start_y": 600,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 3.0 seconds",
+      "duration": 3.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 600) to (270, 200) in 500 milliseconds",
+      "start_x": 270,
+      "start_y": 600,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 3.0 seconds",
+      "duration": 3.0
+    }
+  ]
+}

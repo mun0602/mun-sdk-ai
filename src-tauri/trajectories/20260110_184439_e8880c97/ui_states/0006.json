@@ -1,0 +1,354 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/iconcombo",
+    "className": "FrameLayout",
+    "text": "Page info",
+    "bounds": "14,36,80,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "https://dtdp.bio/",
+    "bounds": "80,36,453,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.browser:id/tab_switcher",
+    "className": "ImageButton",
+    "text": "Page manager",
+    "bounds": "468,36,540,114",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "🌸🌸🌸 | dtdp.bio",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "wrapper",
+    "className": "View",
+    "text": "wrapper",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,204",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "View",
+    "text": "Logo 🌸🌸🌸 ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "24,126,250,192",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,127,84,189",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "Image",
+    "text": "Logo",
+    "bounds": "27,130,81,186",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "🌸🌸🌸",
+    "bounds": "108,132,207,165",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "108,171,250,186",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,127,516,189",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "Button",
+    "text": "android.widget.Button",
+    "bounds": "456,127,516,189",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "main",
+    "className": "View",
+    "text": "main",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,270",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,189,270",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,114,165,246",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,114,165,246",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Tuyển tập những bài chia sẻ ý nghĩa và các tác phẩm nghệ thuật truyền thống, giúp tịnh hóa tâm hồn và tìm lại giá trị chân nguyên.",
+    "bounds": "24,114,165,138",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,172,165,246",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "Button",
+    "text": "Cuộn xuống để khám phá các bài viết",
+    "bounds": "24,172,165,246",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "189,114,540,270",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "189,114,540,270",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "Image",
+    "text": "Tranh nghệ thuật truyền thống minh họa các tiên nhân trong khung cảnh thiên nhiên",
+    "bounds": "189,114,540,270",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "189,114,540,270",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,268,540,960",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Danh sách bài viết",
+    "bounds": "33,375,36,378",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "Bộ lọc danh mục",
+    "bounds": "36,376,504,483",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "ToggleButton",
+    "text": "Lọc theo Tất cả",
+    "bounds": "45,387,147,472",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "ToggleButton",
+    "text": "Lọc theo Audio",
+    "bounds": "144,387,261,472",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "ToggleButton",
+    "text": "Lọc theo Tuyển Tập",
+    "bounds": "258,387,387,472",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "ToggleButton",
+    "text": "Lọc theo Chia Sẻ",
+    "bounds": "384,387,495,472",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "View",
+    "text": "An dật sẽ dẫn đến huỷ diệt",
+    "bounds": "36,577,504,732",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "View",
+    "text": "Đọc bài viết: An dật sẽ dẫn đến huỷ diệt",
+    "bounds": "36,577,504,732",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,577,504,732",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "AUDIO",
+    "bounds": "66,622,124,642",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "post-title--an-dat-se-dan-den-huy-diet",
+    "className": "TextView",
+    "text": "An dật sẽ dẫn đến huỷ diệt",
+    "bounds": "66,657,474,691",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "View",
+    "text": "Tuyển tập nhạc do Đệ tử Đại Pháp sáng tác (tiếng Trung)",
+    "bounds": "36,778,504,936",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "View",
+    "text": "Đọc bài viết: Tuyển tập nhạc do Đệ tử Đại Pháp sáng tác (tiếng Trung)",
+    "bounds": "36,778,504,936",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,778,504,936",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "AUDIO",
+    "bounds": "66,813,124,834",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "post-title--tuyen-tap-nhac-do-de-tu-dai-phap-sang-tac-tieng-trung",
+    "className": "TextView",
+    "text": "Tuyển tập nhạc do Đệ tử Đại Pháp sáng tác (tiếng Trung)",
+    "bounds": "66,849,474,915",
+    "children": []
+  }
+]

@@ -1,0 +1,136 @@
+---
+title: "Shared State"
+description: "Cơ chế phối hợp DroidAgentState cho giao tiếp đa Agent trong Workflow."
+---
+
+# Shared State (Trạng thái chia sẻ)
+
+**Shared State** là "bộ não tập trung" của DroidRun, cho phép các Agent khác nhau (Manager, CodeAct, Scripter) trao đổi thông tin một cách nhất quán mà không cần các hệ thống truyền tin nhắn phức tạp.
+
+## DroidAgentState là gì?
+
+Đây là một cấu trúc dữ liệu dùng chung mà tất cả các Agent đều có quyền đọc và ghi. Trong ứng dụng Tauri v2, cơ chế này được triển khai thông qua **`WorkflowContext`**.
+
+### Vai trò chính:
+- **Giao tiếp liên Agent**: Chia sẻ thông tin về hành động đã thực hiện và kết quả thu được.
+- **Theo dõi tiến độ**: Lưu lịch sử các bước chạy, danh sách ứng dụng/màn hình đã truy cập.
+- **Quản lý bộ nhớ**: Lưu trữ các biến tùy chỉnh (`variables`) và bộ nhớ dài hạn của Agent.
+- **Điều phối lỗi**: Đánh dấu các cờ lỗi để ManagerAgent quyết định có nên tiếp tục hay dừng lại.
+
+## Cấu trúc WorkflowContext (Rust)
+
+```rust
+pub struct WorkflowContext {
+    /// Input values provided by user
+    pub inputs: HashMap<String, serde_json::Value>,
+    
+    /// Runtime variables (results from steps, loop variables, etc)
+    pub variables: HashMap<String, serde_json::Value>,
+    
+    /// Device ID for ADB commands
+    pub device_id: String,
+    
+    /// Current step being executed
+    pub current_step_id: Option<String>,
+    
+    /// Execution logs
+    pub logs: Vec<WorkflowLog>,
+    
+    // ============ Shared State for ScripterAgent ============
+    /// Action history - records of completed steps for AI analysis
+    pub history: Vec<ActionRecord>,
+    
+    /// Current plan/goal from ManagerAgent
+    pub plan: Option<String>,
+    
+    /// Error context for self-healing
+    pub last_error: Option<ErrorContext>,
+}
+
+/// Record of an executed action for history tracking
+pub struct ActionRecord {
+    pub step_id: String,
+    pub step_type: String,
+    pub action: Option<String>,
+    pub result: Option<serde_json::Value>,
+    pub success: bool,
+    pub timestamp: String,
+    pub duration_ms: i64,
+}
+
+/// Error context for self-healing analysis
+pub struct ErrorContext {
+    pub step_id: String,
+    pub error_message: String,
+    pub retry_count: i32,
+    pub suggested_fix: Option<String>,
+}
+```
+
+## Cơ chế hoạt động trong Tauri v2
+
+### 1. ScripterAgent Step
+Sử dụng step type `scripter` để AI tự động sinh code Python:
+
+```json
+{
+  "type": "scripter",
+  "prompt": "Lấy mã OTP từ email và lưu vào biến otp",
+  "saveTo": "otp_code"
+}
+```
+
+ScripterAgent sẽ:
+1. Nhận Shared State (history, variables, plan, last_error)
+2. Dùng AI sinh code Python phù hợp
+3. Thực thi code và lưu kết quả vào `variables`
+4. Cập nhật `history` để các step sau có thể tham khảo
+
+### 2. Self-Healing (Tự sửa lỗi)
+Khi task thất bại, hệ thống tự động:
+- Lưu lỗi vào `last_error`
+- Gọi AI phân tích lỗi dựa trên `history` và logs
+- Đề xuất fix hoặc điều chỉnh tham số
+
+### 3. Smart Skills
+Các skill được tích hợp sẵn:
+
+```javascript
+// Gửi webhook notification
+await invoke('send_webhook_notification', {
+  webhookUrl: 'https://hooks.slack.com/...',
+  message: 'Task completed!',
+  extraData: { status: 'success' }
+});
+
+// Trích xuất OTP từ text
+const result = await invoke('extract_otp_from_text', {
+  text: 'Mã OTP của bạn là 123456',
+  pattern: null  // Dùng pattern mặc định
+});
+console.log(result.first_otp); // "123456"
+
+// Gọi REST API
+const apiResult = await invoke('call_rest_api', {
+  url: 'https://api.example.com/data',
+  method: 'POST',
+  headers: { 'Authorization': 'Bearer token' },
+  body: { key: 'value' }
+});
+```
+
+## Ví dụ luồng phối hợp
+
+| Agent | Hành động | Cập nhật Shared State |
+| :--- | :--- | :--- |
+| **CodeAct** | Mở ứng dụng Shopee | `history += ActionRecord{...}` |
+| **Scripter** | Lấy mã giảm giá từ API | `variables["coupon"] = "SALE50"` |
+| **CodeAct** | Nhập mã giảm giá | Sử dụng giá trị từ `{{coupon}}` |
+| **Error** | Thất bại nhập text | `last_error = ErrorContext{...}` |
+| **Scripter** | Phân tích lỗi | `suggested_fix = "Tăng wait time"` |
+
+## Lợi ích
+- **Đơn giản hóa logic**: Thay vì gửi dữ liệu qua lại, các Agent chỉ cần nhìn vào "bảng tin chung".
+- **Tính nhất quán**: Đảm bảo mọi thành phần trong hệ thống đều có cùng một cái nhìn về trạng thái hiện tại của thiết bị và nhiệm vụ.
+- **Khả năng phục hồi**: Nếu một Agent gặp lỗi, nó có thể ghi log vào State để Agent khác vào kiểm tra và xử lý.
+- **Self-healing**: Hệ thống tự động phân tích và đề xuất sửa lỗi.

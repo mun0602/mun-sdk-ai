@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "description": "m\u1edf google.vn",
+  "timestamp": "20260110_171233",
+  "total_actions": 4,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.android.browser",
+      "package": "com.android.browser",
+      "activity": ".BrowserActivity"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 3: 'https://www.baidu.com/' (AutoCompleteTextView) at coordinates (267, 75)",
+      "x": 267,
+      "y": 75,
+      "element_index": 3,
+      "element_text": "https://www.baidu.com/",
+      "element_bounds": "78,36,456,114"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'google.vn' (clear=True)",
+      "text": "google.vn"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key ENTER",
+      "keycode": 66,
+      "key_name": "ENTER"
+    }
+  ]
+}

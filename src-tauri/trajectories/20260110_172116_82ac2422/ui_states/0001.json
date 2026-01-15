@@ -1,0 +1,146 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/iconcombo",
+    "className": "FrameLayout",
+    "text": "Page info",
+    "bounds": "12,36,78,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "https://www.baidu.com/",
+    "bounds": "78,36,456,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.browser:id/tab_switcher",
+    "className": "ImageButton",
+    "text": "Page manager",
+    "bounds": "468,36,540,114",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "百度一下",
+    "bounds": "0,114,540,1038",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "page",
+    "className": "View",
+    "text": "page",
+    "bounds": "0,114,540,291",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "index-card",
+    "className": "View",
+    "text": "index-card",
+    "bounds": "0,114,540,291",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "skin-theme",
+    "className": "TextView",
+    "text": "skin-theme",
+    "bounds": "0,114,540,1038",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "header",
+    "className": "View",
+    "text": "header",
+    "bounds": "0,114,540,291",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "userinfo-wrap",
+    "className": "View",
+    "text": "userinfo-wrap",
+    "bounds": "0,114,540,192",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,135,60,171",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "Image",
+    "text": "用户头像",
+    "bounds": "24,135,60,171",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "264,141,516,172",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "Image",
+    "text": "entrance_square_static_1754374652000",
+    "bounds": "264,141,516,172",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "logo",
+    "className": "View",
+    "text": "logo",
+    "bounds": "0,204,540,291",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "百度一下,你就知道",
+    "bounds": "135,204,405,291",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "wiseindex-bdlogo",
+    "className": "Image",
+    "text": "百度一下,你就知道",
+    "bounds": "135,204,405,291",
+    "children": []
+  }
+]

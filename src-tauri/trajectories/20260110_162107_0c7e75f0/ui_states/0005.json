@@ -1,0 +1,474 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "dtdp.bio",
+    "bounds": "80,36,459,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/clear",
+    "className": "ImageView",
+    "text": "Clear input",
+    "bounds": "459,36,525,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,883",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "百度一下",
+    "bounds": "0,114,540,885",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,885",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "page",
+    "className": "View",
+    "text": "page",
+    "bounds": "0,114,540,885",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "index-card",
+    "className": "View",
+    "text": "index-card",
+    "bounds": "0,114,540,885",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "skin-theme",
+    "className": "TextView",
+    "text": "skin-theme",
+    "bounds": "0,114,540,885",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "header",
+    "className": "View",
+    "text": "header",
+    "bounds": "0,114,540,603",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "userinfo-wrap",
+    "className": "View",
+    "text": "userinfo-wrap",
+    "bounds": "0,114,540,192",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,135,60,171",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "Image",
+    "text": "用户头像",
+    "bounds": "24,135,60,171",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "264,141,516,172",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "Image",
+    "text": "entrance_square_static_1754374652000",
+    "bounds": "264,141,516,172",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "logo",
+    "className": "View",
+    "text": "logo",
+    "bounds": "0,204,540,291",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "百度一下,你就知道",
+    "bounds": "135,204,405,291",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "wiseindex-bdlogo",
+    "className": "Image",
+    "text": "百度一下,你就知道",
+    "bounds": "135,204,405,291",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "index-form",
+    "className": "View",
+    "text": "index-form",
+    "bounds": "18,336,522,414",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "21,337,264,412",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "index-kw",
+    "className": "EditText",
+    "text": "index-kw",
+    "bounds": "21,337,264,409",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "21,337,264,409",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "Button",
+    "text": "Submit",
+    "bounds": "21,337,87,363",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "262,337,390,412",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "262,337,387,412",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "262,337,318,409",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "ts-image-uploader-icon",
+    "className": "TextView",
+    "text": "ts-image-uploader-icon",
+    "bounds": "316,337,387,409",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "index-bn",
+    "className": "Button",
+    "text": "百度一下",
+    "bounds": "391,337,522,412",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,426,540,603",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,441,516,588",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "447,441,516,513",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,441,516,588",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "carousel-img-item",
+    "className": "TextView",
+    "text": "carousel-img-item",
+    "bounds": "24,441,516,588",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "wise-index-feed",
+    "className": "View",
+    "text": "wise-index-feed",
+    "bounds": "0,603,540,885",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "center-content-1",
+    "className": "View",
+    "text": "center-content-1",
+    "bounds": "0,603,540,885",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "tab_news_1",
+    "className": "View",
+    "text": "tab_news_1",
+    "bounds": "0,603,540,885",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,603,540,885",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,603,540,885",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "_17680369005097_0",
+    "className": "View",
+    "text": "_17680369005097_0",
+    "bounds": "0,603,540,690",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,603,540,690",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "View",
+    "text": "人民警察是一支党和人民可以信赖的队伍 央视新闻",
+    "bounds": "18,603,522,690",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "人民警察是一支党和人民可以信赖的队伍",
+    "bounds": "18,621,522,657",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "央视新闻",
+    "bounds": "18,661,522,684",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "_17680369005098_0",
+    "className": "View",
+    "text": "_17680369005098_0",
+    "bounds": "0,687,540,760",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,687,540,760",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "View",
+    "text": "《一步不停歇 半步不退让》将播出 央视新闻",
+    "bounds": "18,687,522,760",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "《一步不停歇 半步不退让》将播出",
+    "bounds": "18,691,522,727",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "央视新闻",
+    "bounds": "18,732,522,756",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "_17680369005099_0",
+    "className": "View",
+    "text": "_17680369005099_0",
+    "bounds": "0,759,540,843",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,759,540,843",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "",
+    "className": "View",
+    "text": "新年伊始 各地消费活力持续释放 央视新闻",
+    "bounds": "18,759,522,843",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "新年伊始 各地消费活力持续释放",
+    "bounds": "18,762,522,798",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "央视新闻",
+    "bounds": "18,804,522,826",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "_17680369005101_0",
+    "className": "View",
+    "text": "_17680369005101_0",
+    "bounds": "0,841,540,885",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,841,540,885",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "",
+    "className": "View",
+    "text": "“小米系”资本加持，“水下机器人”闯关科创板 投资者网",
+    "bounds": "18,841,522,885",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "18,862,187,885",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "",
+    "className": "Image",
+    "text": "app=106&f=JPEG&fm=30&fmt=auto&q=85&size=f218_146&u=1953699121%2C286010265?w=312&h=208&s=13C1E6A6DC1256CC029E62040300E0DE",
+    "bounds": "19,864,186,885",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "“小米系”资本加持，“水下机器人”闯关科创板",
+    "bounds": "198,855,522,885",
+    "children": []
+  }
+]

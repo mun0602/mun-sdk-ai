@@ -1,0 +1,530 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,114,1920",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.smile.gifmaker:id/nasa_groot_view_pager",
+    "className": "ViewPager",
+    "text": "com.smile.gifmaker:id/nasa_groot_view_pager",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.smile.gifmaker:id/root",
+    "className": "RelativeLayout",
+    "text": "暂停视频",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "action_bar_view",
+    "bounds": "332,486,470,517",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "咨询",
+    "bounds": "363,493,392,510",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "获取报价",
+    "bounds": "406,493,463,510",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "@吴素文信息",
+    "bounds": "332,531,442,553",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.smile.gifmaker:id/caption_scroll_container",
+    "className": "ScrollView",
+    "text": "com.smile.gifmaker:id/caption_scroll_container",
+    "bounds": "332,562,600,586",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.smile.gifmaker:id/element_caption_label",
+    "className": "TextView",
+    "text": "据说每天排队都排不上号，还不抓紧",
+    "bounds": "332,562,600,586",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/slide_play_right_button_layout",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/slide_play_right_button_layout",
+    "bounds": "693,127,761,586",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.smile.gifmaker:id/slide_play_right_follow",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/slide_play_right_follow",
+    "bounds": "693,127,761,206",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.smile.gifmaker:id/slide_play_avatar_click_area",
+    "className": "View",
+    "text": "com.smile.gifmaker:id/slide_play_avatar_click_area",
+    "bounds": "693,127,761,194",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/slide_play_right_follow_button",
+    "className": "ImageView",
+    "text": "关注",
+    "bounds": "694,170,759,206",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.smile.gifmaker:id/like_button",
+    "className": "ViewGroup",
+    "text": "已点赞，点赞2",
+    "bounds": "693,206,761,285",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/like_element_click_layout",
+    "className": "FrameLayout",
+    "text": "已点赞，点赞2",
+    "bounds": "693,206,761,285",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.smile.gifmaker:id/like_count_view",
+    "className": "TextView",
+    "text": "2",
+    "bounds": "722,261,732,277",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.smile.gifmaker:id/comment_button",
+    "className": "ViewGroup",
+    "text": "评论",
+    "bounds": "693,285,761,363",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.smile.gifmaker:id/comment_element_click_layout",
+    "className": "FrameLayout",
+    "text": "评论",
+    "bounds": "693,285,761,363",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.smile.gifmaker:id/comment_count_view2",
+    "className": "TextView",
+    "text": "抢首评",
+    "bounds": "706,340,748,356",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.smile.gifmaker:id/collect_button",
+    "className": "ViewGroup",
+    "text": "未收藏，收藏1",
+    "bounds": "693,363,761,442",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.smile.gifmaker:id/click_area_collect",
+    "className": "FrameLayout",
+    "text": "未收藏，收藏1",
+    "bounds": "693,363,761,442",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.smile.gifmaker:id/collect_text",
+    "className": "TextView",
+    "text": "1",
+    "bounds": "722,419,732,435",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.smile.gifmaker:id/forward_button",
+    "className": "ViewGroup",
+    "text": "分享",
+    "bounds": "693,442,761,521",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.smile.gifmaker:id/share_element_click_layout",
+    "className": "FrameLayout",
+    "text": "分享",
+    "bounds": "693,442,761,521",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.smile.gifmaker:id/forward_count",
+    "className": "TextView",
+    "text": "分享",
+    "bounds": "713,497,741,513",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.smile.gifmaker:id/music_wheel_container",
+    "className": "FrameLayout",
+    "text": "音乐转盘",
+    "bounds": "702,537,752,586",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.smile.gifmaker:id/mask",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/mask",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.smile.gifmaker:id/featured_left_hamburger",
+    "className": "FrameLayout",
+    "text": "侧边栏",
+    "bounds": "24,71,134,181",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.smile.gifmaker:id/nasa_featured_default_search_view",
+    "className": "ImageView",
+    "text": "查找",
+    "bounds": "940,71,1050,181",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.smile.gifmaker:id/comment_panel_container",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/comment_panel_container",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.smile.gifmaker:id/comment_search_entrance_icon",
+    "className": "ImageView",
+    "text": "查找",
+    "bounds": "940,72,1050,182",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.smile.gifmaker:id/content_nest",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/content_nest",
+    "bounds": "0,576,1080,1920",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.smile.gifmaker:id/tabs_panel_tab_strip",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/tabs_panel_tab_strip",
+    "bounds": "0,576,1080,686",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.smile.gifmaker:id/tab_title",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/tab_title",
+    "bounds": "469,576,608,683",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.smile.gifmaker:id/tab_text",
+    "className": "TextView",
+    "text": "0条评论",
+    "bounds": "469,603,608,656",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.smile.gifmaker:id/tabs_panel_close",
+    "className": "ImageView",
+    "text": "关闭评论区",
+    "bounds": "953,576,1058,686",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "com.smile.gifmaker:id/tabs_panel_panel_tab_host_view_pager",
+    "className": "ViewPager",
+    "text": "com.smile.gifmaker:id/tabs_panel_panel_tab_host_view_pager",
+    "bounds": "0,686,1080,1920",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "com.smile.gifmaker:id/recycler_view",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/recycler_view",
+    "bounds": "0,686,1080,1773",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,686,1080,980",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "com.smile.gifmaker:id/comment_frame",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/comment_frame",
+    "bounds": "0,686,1080,980",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "52,722,151,821",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "吴素文信息",
+    "bounds": "173,716,353,765",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "com.smile.gifmaker:id/comment_author_tag",
+    "className": "TextView",
+    "text": "作者",
+    "bounds": "361,726,427,762",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "com.smile.gifmaker:id/comment",
+    "className": "TextView",
+    "text": "据说每天排队都排不上号，还不抓紧 ${ad}私信咨询",
+    "bounds": "173,787,1028,913",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,980,1080,1773",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "com.smile.gifmaker:id/comment_tips_desc",
+    "className": "TextView",
+    "text": "快来发布首条评论吧～",
+    "bounds": "290,1402,790,1471",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "com.smile.gifmaker.comment_detail:id/click_to_comment_btn",
+    "className": "TextView",
+    "text": "点击评论",
+    "bounds": "386,1532,694,1648",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "com.smile.gifmaker:id/ll_editor_container",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/ll_editor_container",
+    "bounds": "0,1773,1080,1920",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "com.smile.gifmaker:id/text_holder_container_layout",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/text_holder_container_layout",
+    "bounds": "30,1794,852,1900",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "com.smile.gifmaker:id/editor_holder_text",
+    "className": "TextView",
+    "text": "nice video",
+    "bounds": "74,1794,852,1900",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "com.smile.gifmaker:id/base_operation_buttons_layout",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/base_operation_buttons_layout",
+    "bounds": "522,1809,852,1886",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "com.smile.gifmaker:id/at_button",
+    "className": "ImageView",
+    "text": "艾特好友",
+    "bounds": "522,1809,599,1886",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "com.smile.gifmaker:id/picture_button_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/picture_button_layout",
+    "bounds": "632,1809,742,1886",
+    "children": []
+  },
+  {
+    "index": 60,
+    "resourceId": "com.smile.gifmaker:id/picture_button",
+    "className": "ImageView",
+    "text": "发布图片",
+    "bounds": "632,1809,709,1886",
+    "children": []
+  },
+  {
+    "index": 61,
+    "resourceId": "com.smile.gifmaker:id/emoji_button_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/emoji_button_layout",
+    "bounds": "742,1809,852,1886",
+    "children": []
+  },
+  {
+    "index": 62,
+    "resourceId": "com.smile.gifmaker:id/emotion_button",
+    "className": "ImageView",
+    "text": "发布表情",
+    "bounds": "742,1809,819,1886",
+    "children": []
+  },
+  {
+    "index": 63,
+    "resourceId": "com.smile.gifmaker:id/finish_button",
+    "className": "TextView",
+    "text": "发送",
+    "bounds": "874,1794,1050,1899",
+    "children": []
+  },
+  {
+    "index": 64,
+    "resourceId": "com.smile.gifmaker:id/nest_scroll_wrapper",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/nest_scroll_wrapper",
+    "bounds": "0,576,1080,675",
+    "children": []
+  },
+  {
+    "index": 65,
+    "resourceId": "com.smile.gifmaker:id/kem_task_pendant_new",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/kem_task_pendant_new",
+    "bounds": "0,341,259,589",
+    "children": []
+  },
+  {
+    "index": 66,
+    "resourceId": "com.smile.gifmaker:id/pendant_close_area",
+    "className": "View",
+    "text": "com.smile.gifmaker:id/pendant_close_area",
+    "bounds": "160,341,259,440",
+    "children": []
+  }
+]

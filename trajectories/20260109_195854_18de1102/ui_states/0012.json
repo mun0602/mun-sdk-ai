@@ -1,0 +1,66 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.smile.gifmaker:id/title_root",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/title_root",
+    "bounds": "0,0,1080,121",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.smile.gifmaker:id/left_btn",
+    "className": "FrameLayout",
+    "text": "返回",
+    "bounds": "30,5,140,115",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.smile.gifmaker:id/title_tv",
+    "className": "TextView",
+    "text": "com.smile.gifmaker:id/title_tv",
+    "bounds": "140,0,940,121",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "com.kuaishou.webkit.WebView",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,0,1083,1924",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "html-loading",
+    "className": "View",
+    "text": "html-loading",
+    "bounds": "0,0,1083,1924",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "Image",
+    "text": "android.widget.Image",
+    "bounds": "484,893,596,1006",
+    "children": []
+  }
+]

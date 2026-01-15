@@ -1,0 +1,682 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.smile.gifmaker:id/title_root",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/title_root",
+    "bounds": "0,66,1080,187",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.smile.gifmaker:id/left_btn",
+    "className": "ImageButton",
+    "text": "返回",
+    "bounds": "30,71,140,181",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.smile.gifmaker:id/tabs",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/tabs",
+    "bounds": "195,66,885,187",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "新增粉丝",
+    "bounds": "195,66,437,187",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "推荐朋友",
+    "bounds": "437,66,687,187",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "通讯录",
+    "bounds": "687,66,885,187",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.smile.gifmaker:id/right_btn",
+    "className": "ImageButton",
+    "text": "com.smile.gifmaker:id/right_btn",
+    "bounds": "940,71,1050,181",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.smile.gifmaker:id/view_pager",
+    "className": "ViewPager",
+    "text": "com.smile.gifmaker:id/view_pager",
+    "bounds": "0,187,1080,1920",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.smile.gifmaker:id/appBarLayout",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/appBarLayout",
+    "bounds": "0,187,1080,319",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.smile.gifmaker:id/search_hint_text",
+    "className": "TextView",
+    "text": "搜索用户昵称/快手ID/快手号",
+    "bounds": "52,209,1028,297",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.smile.gifmaker:id/recycler_view",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/recycler_view",
+    "bounds": "0,319,1080,1920",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "HorizontalScrollView",
+    "text": "android.widget.HorizontalScrollView",
+    "bounds": "0,319,1080,631",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.smile.gifmaker:id/reddot_header_share_friends",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/reddot_header_share_friends",
+    "bounds": "52,319,272,581",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.smile.gifmaker:id/title",
+    "className": "TextView",
+    "text": "摇一摇",
+    "bounds": "104,528,221,581",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/reddot_header_contact",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/reddot_header_contact",
+    "bounds": "304,319,524,581",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.smile.gifmaker:id/title",
+    "className": "TextView",
+    "text": "通讯录",
+    "bounds": "356,528,473,581",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.smile.gifmaker:id/reddot_header_scan",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/reddot_header_scan",
+    "bounds": "556,319,776,581",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/title",
+    "className": "TextView",
+    "text": "扫一扫",
+    "bounds": "608,528,725,581",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.smile.gifmaker:id/reddot_header_qr",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/reddot_header_qr",
+    "bounds": "808,319,1028,581",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/title",
+    "className": "TextView",
+    "text": "二维码",
+    "bounds": "860,528,977,581",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "0,631,1080,829",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "52,653,206,807",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "晴月☘️",
+    "bounds": "239,675,382,736",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.smile.gifmaker:id/user_alias_mark",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/user_alias_mark",
+    "bounds": "393,684,504,728",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.smile.gifmaker:id/alias_text",
+    "className": "TextView",
+    "text": "备注",
+    "bounds": "438,684,504,728",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "你可能认识的人",
+    "bounds": "239,741,712,797",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "745,675,932,763",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "已关注",
+    "bounds": "789,697,888,741",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageButton",
+    "text": "忽略",
+    "bounds": "984,697,1028,741",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "0,829,1080,1072",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "52,851,206,1005",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "烈火金刚",
+    "bounds": "239,851,415,912",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.smile.gifmaker:id/user_alias_mark",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/user_alias_mark",
+    "bounds": "426,860,537,904",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.smile.gifmaker:id/alias_text",
+    "className": "TextView",
+    "text": "备注",
+    "bounds": "471,860,537,904",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.smile.gifmaker:id/tag_sex_age",
+    "className": "TextView",
+    "text": "i  55岁",
+    "bounds": "239,931,368,978",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.smile.gifmaker:id/tag_address",
+    "className": "TextView",
+    "text": "黑龙江 绥化市",
+    "bounds": "379,931,588,978",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "你可能认识的人",
+    "bounds": "239,994,712,1050",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "745,873,932,961",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "已关注",
+    "bounds": "789,895,888,939",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageButton",
+    "text": "忽略",
+    "bounds": "984,895,1028,939",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "0,1072,1080,1315",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "52,1094,206,1248",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "hhhh_一",
+    "bounds": "239,1094,403,1155",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "com.smile.gifmaker:id/user_alias_mark",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/user_alias_mark",
+    "bounds": "414,1103,525,1147",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "com.smile.gifmaker:id/alias_text",
+    "className": "TextView",
+    "text": "备注",
+    "bounds": "459,1103,525,1147",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "com.smile.gifmaker:id/tag_sex_age",
+    "className": "TextView",
+    "text": "i  126岁",
+    "bounds": "239,1174,385,1221",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "com.smile.gifmaker:id/tag_address",
+    "className": "TextView",
+    "text": "北京",
+    "bounds": "396,1174,478,1221",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "com.smile.gifmaker:id/tag_school",
+    "className": "TextView",
+    "text": "清华大学",
+    "bounds": "489,1174,631,1221",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "你可能认识的人",
+    "bounds": "239,1237,712,1293",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "745,1116,932,1204",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "已关注",
+    "bounds": "789,1138,888,1182",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageButton",
+    "text": "忽略",
+    "bounds": "984,1138,1028,1182",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "0,1315,1080,1558",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "52,1337,206,1491",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "小 虎 牙、",
+    "bounds": "239,1337,437,1398",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "com.smile.gifmaker:id/user_alias_mark",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/user_alias_mark",
+    "bounds": "448,1346,559,1390",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "com.smile.gifmaker:id/alias_text",
+    "className": "TextView",
+    "text": "备注",
+    "bounds": "493,1346,559,1390",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "com.smile.gifmaker:id/tag_sex_age",
+    "className": "TextView",
+    "text": "i  25岁",
+    "bounds": "239,1417,362,1464",
+    "children": []
+  },
+  {
+    "index": 60,
+    "resourceId": "com.smile.gifmaker:id/tag_address",
+    "className": "TextView",
+    "text": "陕西 榆林市",
+    "bounds": "373,1417,552,1464",
+    "children": []
+  },
+  {
+    "index": 61,
+    "resourceId": "com.smile.gifmaker:id/tag_school",
+    "className": "TextView",
+    "text": "仙女学校",
+    "bounds": "563,1417,705,1464",
+    "children": []
+  },
+  {
+    "index": 62,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "共同朋友：＠    别总抽烟^",
+    "bounds": "239,1480,712,1536",
+    "children": []
+  },
+  {
+    "index": 63,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "745,1359,932,1447",
+    "children": []
+  },
+  {
+    "index": 64,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "已关注",
+    "bounds": "789,1381,888,1425",
+    "children": []
+  },
+  {
+    "index": 65,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageButton",
+    "text": "忽略",
+    "bounds": "984,1381,1028,1425",
+    "children": []
+  },
+  {
+    "index": 66,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "0,1558,1080,1801",
+    "children": []
+  },
+  {
+    "index": 67,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "52,1580,206,1734",
+    "children": []
+  },
+  {
+    "index": 68,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "陵儿",
+    "bounds": "239,1580,327,1641",
+    "children": []
+  },
+  {
+    "index": 69,
+    "resourceId": "com.smile.gifmaker:id/user_alias_mark",
+    "className": "RelativeLayout",
+    "text": "com.smile.gifmaker:id/user_alias_mark",
+    "bounds": "338,1589,449,1633",
+    "children": []
+  },
+  {
+    "index": 70,
+    "resourceId": "com.smile.gifmaker:id/alias_text",
+    "className": "TextView",
+    "text": "备注",
+    "bounds": "383,1589,449,1633",
+    "children": []
+  },
+  {
+    "index": 71,
+    "resourceId": "com.smile.gifmaker:id/tag_sex",
+    "className": "TextView",
+    "text": "i  女",
+    "bounds": "239,1660,328,1707",
+    "children": []
+  },
+  {
+    "index": 72,
+    "resourceId": "com.smile.gifmaker:id/tag_school",
+    "className": "TextView",
+    "text": "兰陵县二庙中学",
+    "bounds": "339,1660,571,1707",
+    "children": []
+  },
+  {
+    "index": 73,
+    "resourceId": "com.smile.gifmaker:id/text",
+    "className": "TextView",
+    "text": "你可能认识的人",
+    "bounds": "239,1723,712,1779",
+    "children": []
+  },
+  {
+    "index": 74,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "745,1602,932,1690",
+    "children": []
+  },
+  {
+    "index": 75,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "已关注",
+    "bounds": "789,1624,888,1668",
+    "children": []
+  },
+  {
+    "index": 76,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageButton",
+    "text": "忽略",
+    "bounds": "984,1624,1028,1668",
+    "children": []
+  },
+  {
+    "index": 77,
+    "resourceId": "com.smile.gifmaker:id/follower_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/follower_layout",
+    "bounds": "0,1801,1080,1920",
+    "children": []
+  },
+  {
+    "index": 78,
+    "resourceId": "com.smile.gifmaker:id/avatar",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/avatar",
+    "bounds": "52,1823,206,1920",
+    "children": []
+  },
+  {
+    "index": 79,
+    "resourceId": "com.smile.gifmaker:id/name",
+    "className": "TextView",
+    "text": "一杯加糖的美式咖啡",
+    "bounds": "239,1823,635,1884",
+    "children": []
+  },
+  {
+    "index": 80,
+    "resourceId": "com.smile.gifmaker:id/tag_sex_age",
+    "className": "TextView",
+    "text": "i  16岁",
+    "bounds": "239,1906,368,1920",
+    "children": []
+  },
+  {
+    "index": 81,
+    "resourceId": "com.smile.gifmaker:id/tag_address",
+    "className": "TextView",
+    "text": "福建 龙岩市",
+    "bounds": "379,1906,558,1920",
+    "children": []
+  },
+  {
+    "index": 82,
+    "resourceId": "com.smile.gifmaker:id/tag_school",
+    "className": "TextView",
+    "text": "福建省漳平市第三中学",
+    "bounds": "569,1903,712,1920",
+    "children": []
+  },
+  {
+    "index": 83,
+    "resourceId": "com.smile.gifmaker:id/follow_button",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/follow_button",
+    "bounds": "745,1845,932,1920",
+    "children": []
+  },
+  {
+    "index": 84,
+    "resourceId": "com.smile.gifmaker:id/follow_text",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "806,1867,872,1911",
+    "children": []
+  },
+  {
+    "index": 85,
+    "resourceId": "com.smile.gifmaker:id/close",
+    "className": "ImageButton",
+    "text": "忽略",
+    "bounds": "984,1867,1028,1911",
+    "children": []
+  }
+]

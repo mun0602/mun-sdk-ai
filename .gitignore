@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tauri
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# Build
+dist/
+build/
+*.local
+
+# WebDriver binaries
+msedgedriver.exe
+chromedriver.exe
+geckodriver.exe
+safaridriver
+
+# Test artifacts
+test/screenshots/
+test/logs/
+test/reports/
+wdio-*.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

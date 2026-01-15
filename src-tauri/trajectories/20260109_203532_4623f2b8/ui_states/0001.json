@@ -1,0 +1,426 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,66,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.smile.gifmaker:id/common_red_packet_pop_prepare_reward_desc_view",
+    "className": "TextView",
+    "text": "主播的口令红包",
+    "bounds": "182,698,897,742",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.smile.gifmaker:id/status_text_view",
+    "className": "TextView",
+    "text": "正在开奖",
+    "bounds": "182,775,897,863",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.smile.gifmaker:id/roll_user_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/roll_user_recycler_view",
+    "bounds": "182,863,897,1430",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,863,897,905",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,863,331,865",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,863,897,907",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,863,331,867",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,866,897,949",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,863,331,909",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "心***",
+    "bounds": "353,863,428,890",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,868,897,951",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,863,331,911",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "快***",
+    "bounds": "353,863,428,892",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,870,897,953",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,863,331,913",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "南***",
+    "bounds": "353,863,428,894",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,952,897,1035",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,912,331,995",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "农***",
+    "bounds": "353,892,428,936",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/common_red_packet_pop_prepare_reward_desc_view",
+    "className": "TextView",
+    "text": "主播的口令红包",
+    "bounds": "182,698,897,742",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.smile.gifmaker:id/status_text_view",
+    "className": "TextView",
+    "text": "很遗憾，本次未中奖",
+    "bounds": "364,775,715,863",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "看看大家手气",
+    "bounds": "440,904,638,948",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.smile.gifmaker:id/lucky_user_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/lucky_user_recycler_view",
+    "bounds": "182,976,897,1402",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,976,897,1059",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,976,331,1059",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "桥***",
+    "bounds": "353,996,428,1040",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.smile.gifmaker:id/rv_content",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/rv_content",
+    "bounds": "738,976,831,1059",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "738,976,831,1059",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_count",
+    "className": "TextView",
+    "text": "5",
+    "bounds": "738,998,754,1037",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_unit",
+    "className": "TextView",
+    "text": "快币",
+    "bounds": "765,998,831,1037",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,1092,897,1175",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,1092,331,1175",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "太***",
+    "bounds": "353,1112,428,1156",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.smile.gifmaker:id/rv_content",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/rv_content",
+    "bounds": "738,1092,831,1175",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "738,1092,831,1175",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_count",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "738,1114,754,1153",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_unit",
+    "className": "TextView",
+    "text": "快币",
+    "bounds": "765,1114,831,1153",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,1208,897,1291",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,1208,331,1291",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "天***",
+    "bounds": "353,1228,428,1272",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.smile.gifmaker:id/rv_content",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/rv_content",
+    "bounds": "738,1208,831,1291",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "738,1208,831,1291",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_count",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "738,1230,754,1269",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_unit",
+    "className": "TextView",
+    "text": "快币",
+    "bounds": "765,1230,831,1269",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "182,1324,897,1402",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "com.smile.gifmaker:id/avatar_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/avatar_view",
+    "bounds": "248,1324,331,1402",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "老***",
+    "bounds": "353,1344,428,1388",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "com.smile.gifmaker:id/rv_content",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/rv_content",
+    "bounds": "738,1324,831,1402",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "738,1324,831,1402",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_count",
+    "className": "TextView",
+    "text": "3",
+    "bounds": "738,1346,754,1385",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "com.smile.gifmaker:id/red_packet_cover_reward_usual_unit",
+    "className": "TextView",
+    "text": "快币",
+    "bounds": "765,1346,831,1385",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "com.smile.gifmaker:id/close_view",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/close_view",
+    "bounds": "485,1741,595,1851",
+    "children": []
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.smile.gifmaker:id/nasa_groot_view_pager",
+    "className": "ViewPager",
+    "text": "com.smile.gifmaker:id/nasa_groot_view_pager",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.smile.gifmaker:id/root",
+    "className": "FrameLayout",
+    "text": "暂停视频",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.smile.gifmaker:id/user_name_text_view",
+    "className": "TextView",
+    "text": "@海底收割",
+    "bounds": "16,745,138,775",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.smile.gifmaker:id/caption_scroll_container",
+    "className": "ScrollView",
+    "text": "com.smile.gifmaker:id/caption_scroll_container",
+    "bounds": "16,787,154,814",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.smile.gifmaker:id/element_caption_label",
+    "className": "TextView",
+    "text": "海底潜水赶海",
+    "bounds": "16,787,154,814",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.smile.gifmaker:id/slide_play_right_follow",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/slide_play_right_follow",
+    "bounds": "444,228,540,329",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.smile.gifmaker:id/slide_play_avatar_click_area",
+    "className": "View",
+    "text": "海底收割作者头像",
+    "bounds": "444,228,540,318",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.smile.gifmaker:id/slide_play_right_follow_button",
+    "className": "ImageView",
+    "text": "关注",
+    "bounds": "451,285,538,329",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.smile.gifmaker:id/like_button",
+    "className": "ViewGroup",
+    "text": "未点赞，点赞228.5k",
+    "bounds": "444,329,540,427",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.smile.gifmaker:id/like_element_click_layout",
+    "className": "FrameLayout",
+    "text": "未点赞，点赞228.5k",
+    "bounds": "444,329,540,427",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.smile.gifmaker:id/like_count_view",
+    "className": "TextView",
+    "text": "228.5k",
+    "bounds": "466,403,525,424",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/comment_button",
+    "className": "ViewGroup",
+    "text": "评论6.2k",
+    "bounds": "444,427,540,525",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.smile.gifmaker:id/comment_element_click_layout",
+    "className": "FrameLayout",
+    "text": "评论6.2k",
+    "bounds": "444,427,540,525",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.smile.gifmaker:id/comment_count_view2",
+    "className": "TextView",
+    "text": "6.2k",
+    "bounds": "476,501,515,522",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/collect_button",
+    "className": "ViewGroup",
+    "text": "未收藏，收藏33.4k",
+    "bounds": "444,525,540,623",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.smile.gifmaker:id/click_area_collect",
+    "className": "FrameLayout",
+    "text": "未收藏，收藏33.4k",
+    "bounds": "444,525,540,623",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/collect_text",
+    "className": "TextView",
+    "text": "33.4k",
+    "bounds": "471,599,520,620",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.smile.gifmaker:id/forward_button",
+    "className": "ViewGroup",
+    "text": "分享31.6k",
+    "bounds": "444,623,540,721",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.smile.gifmaker:id/share_element_click_layout",
+    "className": "FrameLayout",
+    "text": "分享31.6k",
+    "bounds": "444,623,540,721",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.smile.gifmaker:id/forward_count",
+    "className": "TextView",
+    "text": "31.6k",
+    "bounds": "471,697,520,718",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.smile.gifmaker:id/music_wheel_container",
+    "className": "FrameLayout",
+    "text": "音乐转盘",
+    "bounds": "462,742,528,808",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,826,540,886",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.smile.gifmaker:id/general_bottom_entry_loop_first",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/general_bottom_entry_loop_first",
+    "bounds": "0,826,540,886",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.smile.gifmaker:id/general_entry_title_container",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/general_entry_title_container",
+    "bounds": "47,845,490,868",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.smile.gifmaker:id/general_entry_pre_title",
+    "className": "TextView",
+    "text": "相关搜索",
+    "bounds": "47,845,135,868",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.smile.gifmaker:id/general_entry_title",
+    "className": "TextView",
+    "text": "远古海洋有多吓人",
+    "bounds": "144,845,296,868",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.smile.gifmaker:id/featured_left_guest_login",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/featured_left_guest_login",
+    "bounds": "16,48,195,96",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.smile.gifmaker:id/guest_name",
+    "className": "TextView",
+    "text": "游客**2400",
+    "bounds": "61,61,153,82",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.smile.gifmaker:id/nasa_featured_default_search_view",
+    "className": "ImageView",
+    "text": "查找",
+    "bounds": "464,39,524,99",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.smile.gifmaker:id/tab_layout",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/tab_layout",
+    "bounds": "0,887,540,960",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Home",
+    "bounds": "0,887,108,960",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Home",
+    "bounds": "21,910,86,938",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Featured",
+    "bounds": "108,887,216,960",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Featured",
+    "bounds": "114,910,209,938",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Message",
+    "bounds": "324,887,432,960",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Message",
+    "bounds": "329,910,426,938",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Me",
+    "bounds": "432,887,540,960",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Me",
+    "bounds": "469,910,503,938",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "com.smile.gifmaker:id/shoot_container",
+    "className": "ViewGroup",
+    "text": "拍摄",
+    "bounds": "213,887,326,960",
+    "children": []
+  }
+]

@@ -1,0 +1,96 @@
+{
+    "id": "kuaishou-auto-watch",
+    "name": "Kuaishou Auto Watch",
+    "description": "Tự động xem video Kuaishou với random delay mô phỏng người thật",
+    "icon": "📺",
+    "color": "#FF6B35",
+    "category": "video",
+    "timeout": 1800,
+    "inputs": [
+        {
+            "name": "video_count",
+            "label": "Số video cần xem",
+            "type": "number",
+            "default": 20
+        },
+        {
+            "name": "min_watch_time",
+            "label": "Thời gian xem tối thiểu (giây)",
+            "type": "number",
+            "default": 5
+        },
+        {
+            "name": "max_watch_time",
+            "label": "Thời gian xem tối đa (giây)",
+            "type": "number",
+            "default": 15
+        }
+    ],
+    "steps": [
+        {
+            "id": "step-1",
+            "type": "action",
+            "name": "Mở Kuaishou",
+            "action": "open_app",
+            "params": {
+                "package": "com.kuaishou.nebula"
+            }
+        },
+        {
+            "id": "step-2",
+            "type": "wait",
+            "name": "Chờ app load",
+            "duration": "5000"
+        },
+        {
+            "id": "step-3",
+            "type": "action",
+            "name": "Tap vào Featured tab",
+            "action": "tap_text",
+            "params": {
+                "text": "Featured"
+            }
+        },
+        {
+            "id": "step-4",
+            "type": "wait",
+            "name": "Chờ video load",
+            "duration": "3000"
+        },
+        {
+            "id": "step-5",
+            "type": "loop",
+            "name": "Xem video loop",
+            "count": "{{video_count}}",
+            "variable": "i",
+            "body": [
+                {
+                    "id": "step-5-1",
+                    "type": "python",
+                    "name": "Calculate random wait",
+                    "script": "import random; return {'wait_ms': random.randint({{min_watch_time}} * 1000, {{max_watch_time}} * 1000)}",
+                    "save_to": "random_wait"
+                },
+                {
+                    "id": "step-5-2",
+                    "type": "wait",
+                    "name": "Xem video",
+                    "duration": "{{random_wait.wait_ms}}"
+                },
+                {
+                    "id": "step-5-3",
+                    "type": "action",
+                    "name": "Swipe lên video tiếp",
+                    "action": "swipe_up"
+                },
+                {
+                    "id": "step-5-4",
+                    "type": "wait",
+                    "name": "Chờ video mới load",
+                    "duration": "2000"
+                }
+            ]
+        }
+    ],
+    "outputs": []
+}

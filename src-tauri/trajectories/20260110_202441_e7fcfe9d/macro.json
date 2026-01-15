@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "description": "xem 5 video tr\u00ean kuaishou. HINT: Swipe to next video: swipe([270, 800], [270, 200], duration=0.8)",
+  "timestamp": "20260110_202620",
+  "total_actions": 10,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: 'Kuaishou' (TextView) at coordinates (205, 150)",
+      "x": 205,
+      "y": 150,
+      "element_index": 4,
+      "element_text": "Kuaishou",
+      "element_bounds": "141,99,270,201"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5 seconds",
+      "duration": 5.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5 seconds",
+      "duration": 5.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5 seconds",
+      "duration": 5.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5 seconds",
+      "duration": 5.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5 seconds",
+      "duration": 5.0
+    }
+  ]
+}

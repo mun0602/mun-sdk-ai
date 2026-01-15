@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "description": "m\u1edf dtdp.bio xem 2 b\u00e0i vi\u1ebft",
+  "timestamp": "20260110_192804",
+  "total_actions": 11,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: 'TRANG CH\u1ee6' (View) at coordinates (100, 255)",
+      "x": 100,
+      "y": 255,
+      "element_index": 21,
+      "element_text": "TRANG CH\u1ee6",
+      "element_bounds": "36,241,165,270"
+    },
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.android.browser",
+      "package": "com.android.browser",
+      "activity": ".BrowserActivity"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: 'https://mumu.163.com/redirect/nx/browser/home/' (AutoCompleteTextView) at coordinates (267, 75)",
+      "x": 267,
+      "y": 75,
+      "element_index": 4,
+      "element_text": "https://mumu.163.com/redirect/nx/browser/home/",
+      "element_bounds": "78,36,456,114"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'dtdp.bio' (clear=True)",
+      "text": "dtdp.bio"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key ENTER",
+      "keycode": 66,
+      "key_name": "ENTER"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 1000 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 1000
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 36: '\u0110\u1ecdc b\u00e0i vi\u1ebft: An d\u1eadt s\u1ebd d\u1eabn \u0111\u1ebfn hu\u1ef7 di\u1ec7t' (View) at coordinates (270, 660)",
+      "x": 270,
+      "y": 660,
+      "element_index": 36,
+      "element_text": "\u0110\u1ecdc b\u00e0i vi\u1ebft: An d\u1eadt s\u1ebd d\u1eabn \u0111\u1ebfn hu\u1ef7 di\u1ec7t",
+      "element_bounds": "36,583,504,738"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: 'TRANG CH\u1ee6' (View) at coordinates (100, 255)",
+      "x": 100,
+      "y": 255,
+      "element_index": 21,
+      "element_text": "TRANG CH\u1ee6",
+      "element_bounds": "36,241,165,270"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 1000 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 1000
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 1000 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 1000
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 30: '\u0110\u1ecdc b\u00e0i vi\u1ebft: Tuy\u1ec3n t\u1eadp nh\u1ea1c do \u0110\u1ec7 t\u1eed \u0110\u1ea1i Ph\u00e1p s\u00e1ng t\u00e1c (ti\u1ebfng Trung)' (View) at coordinates (270, 674)",
+      "x": 270,
+      "y": 674,
+      "element_index": 30,
+      "element_text": "\u0110\u1ecdc b\u00e0i vi\u1ebft: Tuy\u1ec3n t\u1eadp nh\u1ea1c do \u0110\u1ec7 t\u1eed \u0110\u1ea1i Ph\u00e1p s\u00e1ng t\u00e1c (ti\u1ebfng Trung)",
+      "element_bounds": "36,595,504,753"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,114,1920",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.smile.gifmaker:id/refresh_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/refresh_layout",
+    "bounds": "0,187,1080,1920",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.smile.gifmaker:id/recycler_view",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/recycler_view",
+    "bounds": "0,380,1080,1920",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "搞笑小川的作品",
+    "bounds": "6,386,540,1008",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.smile.gifmaker:id/user_name",
+    "className": "TextView",
+    "text": "搞笑小川",
+    "bounds": "89,938,220,979",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "猛宠大大的作品",
+    "bounds": "6,1008,540,1920",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "喵喵历险记🐱的作品",
+    "bounds": "540,386,1074,1414",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.smile.gifmaker:id/user_name",
+    "className": "TextView",
+    "text": "快乐一家人",
+    "bounds": "623,1422,784,1463",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/right_bottom_text",
+    "className": "TextView",
+    "text": "2307",
+    "bounds": "970,1416,1046,1460",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "农村放牧小哥的作品",
+    "bounds": "540,1414,1074,1920",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.smile.gifmaker:id/left_btn",
+    "className": "FrameLayout",
+    "text": "侧边栏",
+    "bounds": "24,71,134,181",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/kcube_tab_strip",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/kcube_tab_strip",
+    "bounds": "134,66,946,187",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "134,66,278,187",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/textView",
+    "className": "View",
+    "text": "商城",
+    "bounds": "159,66,253,187",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "278,66,422,187",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.smile.gifmaker:id/follow_tab_text",
+    "className": "View",
+    "text": "关注",
+    "bounds": "303,66,397,187",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "422,66,566,187",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.smile.gifmaker:id/textView",
+    "className": "View",
+    "text": "发现",
+    "bounds": "447,66,541,187",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "566,66,710,187",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.smile.gifmaker:id/textView",
+    "className": "View",
+    "text": "直播",
+    "bounds": "591,66,685,187",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "710,66,854,187",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.smile.gifmaker:id/follow_tab_text",
+    "className": "View",
+    "text": "同城",
+    "bounds": "735,66,829,187",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "854,66,946,187",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.smile.gifmaker:id/textView",
+    "className": "View",
+    "text": "探索",
+    "bounds": "879,66,946,187",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.smile.gifmaker:id/search_btn",
+    "className": "ImageView",
+    "text": "查找",
+    "bounds": "946,71,1056,182",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.smile.gifmaker:id/tab_layout",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/tab_layout",
+    "bounds": "0,1786,1080,1920",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "首页",
+    "bounds": "0,1786,216,1920",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "首页",
+    "bounds": "62,1827,154,1881",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "精选",
+    "bounds": "216,1786,432,1920",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "精选",
+    "bounds": "278,1827,370,1881",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "消息",
+    "bounds": "648,1786,864,1920",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "消息",
+    "bounds": "710,1827,802,1881",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "我",
+    "bounds": "864,1786,1080,1920",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "我",
+    "bounds": "949,1827,995,1881",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "com.smile.gifmaker:id/shoot_container",
+    "className": "ViewGroup",
+    "text": "拍摄",
+    "bounds": "437,1786,643,1920",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "com.smile.gifmaker:id/kem_task_pendant_new",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/kem_task_pendant_new",
+    "bounds": "0,341,259,589",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "com.smile.gifmaker:id/pendant_close_area",
+    "className": "View",
+    "text": "com.smile.gifmaker:id/pendant_close_area",
+    "bounds": "160,341,259,440",
+    "children": []
+  }
+]

@@ -1,0 +1,54 @@
+[package]
+name = "mun-sdk-ai-v2"
+version = "3.21.0"
+description = "MUN SDK AI V2 - AI Android Controller with Enhanced Features"
+authors = ["MUN Team"]
+edition = "2021"
+
+[lib]
+name = "mun_sdk_ai_v2_lib"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-shell = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-notification = "2"
+tauri-plugin-deep-link = "2"
+tauri-plugin-process = "2"
+tauri-plugin-window-state = "2"
+tauri-plugin-updater = "2"
+url = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", default-features = false, features = ["json", "native-tls"] }
+tokio = { version = "1", features = ["full"] }
+aes-gcm = "0.10"
+sha2 = "0.10"
+base64 = "0.22"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4"] }
+thiserror = "1"
+log = "0.4"
+env_logger = "0.11"
+dirs = "5"
+hostname = "0.4"
+obfstr = "0.4"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+lazy_static = "1.4"
+futures = "0.3"
+regex = "1"
+rand = "0.8"
+
+
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

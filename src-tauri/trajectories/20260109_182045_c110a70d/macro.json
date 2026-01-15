@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "description": "Open Settings",
+  "timestamp": "20260109_182105",
+  "total_actions": 1,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 11: 'Settings' (TextView) at coordinates (70, 907)",
+      "x": 70,
+      "y": 907,
+      "element_index": 11,
+      "element_text": "Settings",
+      "element_bounds": "30,869,110,945"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "app.lawnchair:id/workspace",
+    "className": "ScrollView",
+    "text": "app.lawnchair:id/workspace",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "应用宝",
+    "bounds": "12,99,141,201",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Kuaishou",
+    "bounds": "141,99,270,201",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "快手极速版",
+    "bounds": "270,99,399,201",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Droidrun Por...",
+    "bounds": "399,99,528,201",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "View",
+    "text": "Home",
+    "bounds": "0,36,540,960",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "app.lawnchair:id/mumu_search_bar",
+    "className": "ViewGroup",
+    "text": "app.lawnchair:id/mumu_search_bar",
+    "bounds": "0,36,540,78",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "app.lawnchair:id/searchText",
+    "className": "TextView",
+    "text": "Enter game or app name",
+    "bounds": "49,36,491,78",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "app.lawnchair:id/searchIcon",
+    "className": "ImageView",
+    "text": "app.lawnchair:id/searchIcon",
+    "bounds": "463,46,486,68",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Settings",
+    "bounds": "30,869,110,945",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Gallery",
+    "bounds": "110,869,190,945",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Files",
+    "bounds": "190,869,270,945",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Browser",
+    "bounds": "270,869,350,945",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "App Cloner",
+    "bounds": "350,869,430,945",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Folder: 小工具, 2 items",
+    "bounds": "430,869,510,945",
+    "children": []
+  }
+]

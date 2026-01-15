@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "description": "m\u1edf dtdp.bio xem 2 b\u00e0i vi\u1ebft",
+  "timestamp": "20260110_183628",
+  "total_actions": 10,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 3: 'https://www.baidu.com/' (AutoCompleteTextView) at coordinates (267, 75)",
+      "x": 267,
+      "y": 75,
+      "element_index": 3,
+      "element_text": "https://www.baidu.com/",
+      "element_bounds": "78,36,456,114"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 3: 'https://www.baidu.com/' (AutoCompleteTextView) at coordinates (267, 75)",
+      "x": 267,
+      "y": 75,
+      "element_index": 3,
+      "element_text": "https://www.baidu.com/",
+      "element_bounds": "78,36,456,114"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'dtdp.bio' (clear=True)",
+      "text": "dtdp.bio"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key ENTER",
+      "keycode": 66,
+      "key_name": "ENTER"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5 seconds",
+      "duration": 5.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 42: '\u4eba\u6c11\u8b66\u5bdf\u662f\u4e00\u652f\u515a\u548c\u4eba\u6c11\u53ef\u4ee5\u4fe1\u8d56\u7684\u961f\u4f0d \u592e\u89c6\u65b0\u95fb' (View) at coordinates (270, 646)",
+      "x": 270,
+      "y": 646,
+      "element_index": 42,
+      "element_text": "\u4eba\u6c11\u8b66\u5bdf\u662f\u4e00\u652f\u515a\u548c\u4eba\u6c11\u53ef\u4ee5\u4fe1\u8d56\u7684\u961f\u4f0d \u592e\u89c6\u65b0\u95fb",
+      "element_bounds": "18,603,522,690"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5 seconds",
+      "duration": 5.0
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key BACK",
+      "keycode": 4,
+      "key_name": "BACK"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 2 seconds",
+      "duration": 2.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 47: '\u300a\u4e00\u6b65\u4e0d\u505c\u6b47 \u534a\u6b65\u4e0d\u9000\u8ba9\u300b\u5c06\u64ad\u51fa \u592e\u89c6\u65b0\u95fb' (View) at coordinates (270, 723)",
+      "x": 270,
+      "y": 723,
+      "element_index": 47,
+      "element_text": "\u300a\u4e00\u6b65\u4e0d\u505c\u6b47 \u534a\u6b65\u4e0d\u9000\u8ba9\u300b\u5c06\u64ad\u51fa \u592e\u89c6\u65b0\u95fb",
+      "element_bounds": "18,687,522,760"
+    }
+  ]
+}

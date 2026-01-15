@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "description": "m\u1edf dtdp.bio xem 2 b\u00e0i vi\u1ebft",
+  "timestamp": "20260110_183435",
+  "total_actions": 8,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 14: 'Browser' (TextView) at coordinates (310, 907)",
+      "x": 310,
+      "y": 907,
+      "element_index": 14,
+      "element_text": "Browser",
+      "element_bounds": "270,869,350,945"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 9: 'Enter game or app name' (TextView) at coordinates (270, 57)",
+      "x": 270,
+      "y": 57,
+      "element_index": 9,
+      "element_text": "Enter game or app name",
+      "element_bounds": "49,36,491,78"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'dtdp.bio' (clear=True)",
+      "text": "dtdp.bio"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key ENTER",
+      "keycode": 66,
+      "key_name": "ENTER"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 3.0 seconds",
+      "duration": 3.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 400) to (270, 800) in 1000 milliseconds",
+      "start_x": 270,
+      "start_y": 400,
+      "end_x": 270,
+      "end_y": 800,
+      "duration_ms": 1000
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1.0 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 400) to (270, 800) in 1000 milliseconds",
+      "start_x": 270,
+      "start_y": 400,
+      "end_x": 270,
+      "end_y": 800,
+      "duration_ms": 1000
+    }
+  ]
+}

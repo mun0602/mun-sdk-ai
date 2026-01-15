@@ -1,0 +1,53 @@
+---
+title: "Structured Output"
+description: "Trích xuất dữ liệu có cấu trúc (JSON) từ các tương tác trên thiết bị."
+---
+
+# Structured Output (Trích xuất dữ liệu)
+
+**Structured Output** là tính năng cho phép DroidRun không chỉ thực hiện các hành động trên điện thoại mà còn "đọc hiểu" và trích xuất thông tin cụ thể thành định dạng JSON chuẩn.
+
+## Cơ chế hoạt động
+
+Quá trình trích xuất diễn ra theo 2 giai đoạn:
+
+1.  **Thực thi nhiệm vụ**: Agent thực hiện các thao tác (như mở Gmail, tìm số điện thoại trong Zalo) và thu thập văn bản thô từ màn hình.
+2.  **Chuyển đổi dữ liệu**: `StructuredOutputAgent` nhận văn bản thô này, sử dụng LLM để "nhặt" ra các thông tin quan trọng và khớp chúng vào một **Schema (Khuôn mẫu)** định sẵn.
+
+## Ví dụ Schema trích xuất
+
+Trong ứng dụng Tauri v2, bạn có thể định nghĩa các mẫu dữ liệu muốn lấy:
+
+```python
+# Ví dụ mẫu trích xuất thông tin hóa đơn
+class Invoice(BaseModel):
+    invoice_number: str = Field(description="Số hóa đơn")
+    vendor_name: str = Field(description="Tên nhà cung cấp")
+    total_due: float = Field(description="Tổng số tiền thanh toán")
+```
+
+## Cách áp dụng trong Workflow
+
+Bạn có thể sử dụng bước **`ExtractStep`** để thực hiện tính năng này:
+
+- **Mục tiêu**: *"Mở Gmail, tìm email từ 'Grab' và lấy tổng tiền chuyến xe gần nhất"*.
+- **Schema**: Định nghĩa các trường `amount`, `date`, `trip_id`.
+- **Kết quả**: Hệ thống sẽ lưu một object JSON vào biến Workflow, ví dụ: `{{last_trip}}`.
+
+## Các ứng dụng thực tế
+
+- **E-commerce**: Tự động quét giỏ hàng để lấy giá và tên sản phẩm.
+- **Tài chính**: Trích xuất mã giao dịch (Transaction ID) từ các ứng dụng ngân hàng.
+- **CRM**: Tự động lấy thông tin khách hàng từ profile mạng xã hội.
+- **OTP**: Trích xuất mã xác thực từ ứng dụng tin nhắn.
+
+## Lưu ý kỹ thuật
+
+Để đạt độ chính xác cao nhất:
+- **Mô tả trường rõ ràng**: LLM dựa vào `description` của từng trường để trích xuất.
+- **Giá trị mặc định**: Luôn cung cấp giá trị mặc định cho các trường không bắt buộc để tránh lỗi script.
+- **Nhiệt độ (Temperature) thấp**: Nên đặt `temperature: 0.0` khi cấu hình LLM cho tính năng này để kết quả trả về luôn nhất quán.
+
+---
+
+*Tính năng này biến DroidRun từ một công cụ tự động hóa giao diện thành một công cụ khai thác dữ liệu (Data Mining) mạnh mẽ trực tiếp trên thiết bị di động.*

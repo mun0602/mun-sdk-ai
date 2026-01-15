@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "description": "m\u1edf dtdp.bio",
+  "timestamp": "20260110_170127",
+  "total_actions": 4,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.android.browser",
+      "package": "com.android.browser",
+      "activity": ".BrowserActivity"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: 'https://mumu.163.com/redirect/nx/browser/home/' (AutoCompleteTextView) at coordinates (267, 75)",
+      "x": 267,
+      "y": 75,
+      "element_index": 4,
+      "element_text": "https://mumu.163.com/redirect/nx/browser/home/",
+      "element_bounds": "78,36,456,114"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'dtdp.bio' (clear=True)",
+      "text": "dtdp.bio"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key ENTER",
+      "keycode": 66,
+      "key_name": "ENTER"
+    }
+  ]
+}

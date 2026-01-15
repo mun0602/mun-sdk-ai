@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "description": "m\u1edf dtdp.bio xem 2 b\u00e0i vi\u1ebft",
+  "timestamp": "20260110_191612",
+  "total_actions": 8,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 14: 'Browser' (TextView) at coordinates (310, 907)",
+      "x": 310,
+      "y": 907,
+      "element_index": 14,
+      "element_text": "Browser",
+      "element_bounds": "270,869,350,945"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: 'https://mumu.163.com/redirect/nx/browser/home/' (AutoCompleteTextView) at coordinates (267, 75)",
+      "x": 267,
+      "y": 75,
+      "element_index": 4,
+      "element_text": "https://mumu.163.com/redirect/nx/browser/home/",
+      "element_bounds": "78,36,456,114"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'dtdp.bio' (clear=True)",
+      "text": "dtdp.bio"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key ENTER",
+      "keycode": 66,
+      "key_name": "ENTER"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 24: 'Cu\u1ed9n xu\u1ed1ng \u0111\u1ec3 kh\u00e1m ph\u00e1 c\u00e1c b\u00e0i vi\u1ebft' (Button) at coordinates (94, 854)",
+      "x": 94,
+      "y": 854,
+      "element_index": 24,
+      "element_text": "Cu\u1ed9n xu\u1ed1ng \u0111\u1ec3 kh\u00e1m ph\u00e1 c\u00e1c b\u00e0i vi\u1ebft",
+      "element_bounds": "24,817,165,891"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 31: '\u0110\u1ecdc b\u00e0i vi\u1ebft: An d\u1eadt s\u1ebd d\u1eabn \u0111\u1ebfn hu\u1ef7 di\u1ec7t' (View) at coordinates (270, 500)",
+      "x": 270,
+      "y": 500,
+      "element_index": 31,
+      "element_text": "\u0110\u1ecdc b\u00e0i vi\u1ebft: An d\u1eadt s\u1ebd d\u1eabn \u0111\u1ebfn hu\u1ef7 di\u1ec7t",
+      "element_bounds": "36,423,504,577"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key BACK",
+      "keycode": 4,
+      "key_name": "BACK"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 36: '\u0110\u1ecdc b\u00e0i vi\u1ebft: Tuy\u1ec3n t\u1eadp nh\u1ea1c do \u0110\u1ec7 t\u1eed \u0110\u1ea1i Ph\u00e1p s\u00e1ng t\u00e1c (ti\u1ebfng Trung)' (View) at coordinates (270, 702)",
+      "x": 270,
+      "y": 702,
+      "element_index": 36,
+      "element_text": "\u0110\u1ecdc b\u00e0i vi\u1ebft: Tuy\u1ec3n t\u1eadp nh\u1ea1c do \u0110\u1ec7 t\u1eed \u0110\u1ea1i Ph\u00e1p s\u00e1ng t\u00e1c (ti\u1ebfng Trung)",
+      "element_bounds": "36,624,504,781"
+    }
+  ]
+}

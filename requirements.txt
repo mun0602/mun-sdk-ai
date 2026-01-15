@@ -1,0 +1,16 @@
+# DroidRun GUI Tauri V2 - Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core DroidRun
+droidrun>=0.3.0
+
+# LLM Backends - Required for different providers
+llama-index-llms-openai-like    # For Z.AI, OpenAI-compatible APIs
+llama-index-llms-openai         # For OpenAI
+llama-index-llms-anthropic      # For Anthropic/Claude
+llama-index-llms-gemini         # For Google Gemini
+llama-index-llms-ollama         # For Ollama (local)
+
+# Optional: Tracing/Observability
+# arize-phoenix                 # Phoenix tracing
+# langfuse                      # Langfuse tracing

@@ -1,0 +1,122 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.google.android.apps.nexuslauncher:id/workspace",
+    "className": "ScrollView",
+    "text": "com.google.android.apps.nexuslauncher:id/workspace",
+    "bounds": "0,0,1080,1920",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.google.android.apps.nexuslauncher:id/date",
+    "className": "TextView",
+    "text": "1月8日周四",
+    "bounds": "93,117,1031,182",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "快手",
+    "bounds": "443,861,638,1092",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "QR Code Reader",
+    "bounds": "640,861,835,1092",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "View",
+    "text": "主屏幕",
+    "bounds": "0,66,1080,1788",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "电话",
+    "bounds": "68,1393,225,1570",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "信息",
+    "bounds": "265,1393,422,1570",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Play 商店",
+    "bounds": "462,1393,619,1570",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Chrome",
+    "bounds": "659,1393,816,1570",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "相机",
+    "bounds": "856,1393,1012,1570",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.google.android.apps.nexuslauncher:id/search_container_hotseat",
+    "className": "FrameLayout",
+    "text": "搜索",
+    "bounds": "67,1610,1012,1783",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.google.android.apps.nexuslauncher:id/g_icon",
+    "className": "ImageView",
+    "text": "Google 应用",
+    "bounds": "78,1630,210,1762",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.google.android.apps.nexuslauncher:id/mic_icon",
+    "className": "ImageView",
+    "text": "语音搜索",
+    "bounds": "737,1610,869,1783",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.google.android.apps.nexuslauncher:id/lens_icon",
+    "className": "ImageButton",
+    "text": "Google 智能镜头",
+    "bounds": "869,1610,1001,1783",
+    "children": []
+  }
+]

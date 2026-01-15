@@ -1,0 +1,466 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/iconcombo",
+    "className": "FrameLayout",
+    "text": "Page info",
+    "bounds": "14,36,80,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "https://m.youtube.com/",
+    "bounds": "80,36,453,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.browser:id/tab_switcher",
+    "className": "ImageButton",
+    "text": "Page manager",
+    "bounds": "468,36,540,114",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "Best Power of a Haircut Transformations! Part 4 #shortsviral - YouTube",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,186",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "player-container-id",
+    "className": "View",
+    "text": "player-container-id",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "player-shorts-container",
+    "className": "View",
+    "text": "player-shorts-container",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "0,186,18,222",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "carousel-items",
+    "className": "View",
+    "text": "carousel-items",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "carousel-item-0",
+    "className": "View",
+    "text": "carousel-item-0",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "shorts-moveable-container",
+    "className": "View",
+    "text": "shorts-moveable-container",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "shorts-video",
+    "className": "View",
+    "text": "shorts-video",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "player",
+    "className": "View",
+    "text": "player",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "movie_player",
+    "className": "View",
+    "text": "YouTube Video Player",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "18,114,522,942",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "ytp-caption-window-container",
+    "className": "TextView",
+    "text": "ytp-caption-window-container",
+    "bounds": "0,114,468,960",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,765,72,816",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "Button",
+    "text": "Go to channel",
+    "bounds": "24,765,72,816",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "View",
+    "text": "@Scrollcollect",
+    "bounds": "84,777,220,804",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "@Scrollcollect",
+    "bounds": "84,777,220,804",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "Button",
+    "text": "Subscribe",
+    "bounds": "231,762,373,819",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,828,444,891",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "View",
+    "text": "Best Power of a Haircut Transformations! Part 4 #shortsviral",
+    "bounds": "24,828,444,891",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Best Power of a Haircut Transformations! Part 4 ",
+    "bounds": "24,831,415,888",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "View",
+    "text": "#shortsviral",
+    "bounds": "84,861,198,888",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "#shortsviral",
+    "bounds": "84,861,198,888",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "Button",
+    "text": "music icon NO BATIDÃO (Ultra Slowed) · ZXKAI & slxughter",
+    "bounds": "24,906,444,936",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,246,528,354",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,246,528,354",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "ToggleButton",
+    "text": "like this video along with 19 thousand other people",
+    "bounds": "456,246,528,318",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "19K",
+    "bounds": "472,324,511,354",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,378,528,486",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,378,528,486",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "ToggleButton",
+    "text": "Dislike this video",
+    "bounds": "456,378,528,450",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Dislike",
+    "bounds": "460,456,523,486",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,510,528,618",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "Button",
+    "text": "View 39 comments",
+    "bounds": "456,510,528,582",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "39",
+    "bounds": "480,588,504,618",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,642,528,750",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "",
+    "className": "Button",
+    "text": "Share this video",
+    "bounds": "456,642,528,714",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Share",
+    "bounds": "465,720,519,750",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,774,528,852",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "",
+    "className": "Button",
+    "text": "More actions",
+    "bounds": "456,774,528,846",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "462,876,522,936",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "",
+    "className": "View",
+    "text": "See more videos using this sound",
+    "bounds": "462,876,522,936",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "app",
+    "className": "View",
+    "text": "app",
+    "bounds": "0,114,540,186",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "header-bar",
+    "className": "View",
+    "text": "header-bar",
+    "bounds": "0,114,540,186",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,186",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "",
+    "className": "Button",
+    "text": "Back",
+    "bounds": "0,114,72,186",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "468,150,540,186",
+    "children": []
+  }
+]

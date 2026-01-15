@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "description": "m\u1edf youtube.com xem 5 video short. HINT: Swipe to next video: swipe([270, 800], [270, 200], duration=0.8)",
+  "timestamp": "20260110_185748",
+  "total_actions": 14,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 14: 'Browser' (TextView) at coordinates (310, 907)",
+      "x": 310,
+      "y": 907,
+      "element_index": 14,
+      "element_text": "Browser",
+      "element_bounds": "270,869,350,945"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: 'https://mumu.163.com/redirect/nx/browser/home/' (AutoCompleteTextView) at coordinates (267, 75)",
+      "x": 267,
+      "y": 75,
+      "element_index": 4,
+      "element_text": "https://mumu.163.com/redirect/nx/browser/home/",
+      "element_bounds": "78,36,456,114"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'youtube.com' (clear=True)",
+      "text": "youtube.com"
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key ENTER",
+      "keycode": 66,
+      "key_name": "ENTER"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 16: 'Shorts' (View) at coordinates (270, 918)",
+      "x": 270,
+      "y": 918,
+      "element_index": 16,
+      "element_text": "Shorts",
+      "element_bounds": "180,876,360,960"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 17: 'Shorts' (View) at coordinates (270, 918)",
+      "x": 270,
+      "y": 918,
+      "element_index": 17,
+      "element_text": "Shorts",
+      "element_bounds": "180,876,360,960"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 2 seconds",
+      "duration": 2.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 2 seconds",
+      "duration": 2.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 2 seconds",
+      "duration": 2.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (270, 800) to (270, 200) in 800 milliseconds",
+      "start_x": 270,
+      "start_y": 800,
+      "end_x": 270,
+      "end_y": 200,
+      "duration_ms": 800
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 2 seconds",
+      "duration": 2.0
+    }
+  ]
+}

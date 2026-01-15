@@ -1,0 +1,4 @@
+# Ignore trajectories folder to prevent unnecessary rebuilds
+src-tauri/trajectories/
+trajectories/
+*.log

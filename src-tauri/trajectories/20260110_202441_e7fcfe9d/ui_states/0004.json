@@ -1,0 +1,370 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.smile.gifmaker:id/nasa_groot_view_pager",
+    "className": "ViewPager",
+    "text": "com.smile.gifmaker:id/nasa_groot_view_pager",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.smile.gifmaker:id/container_card_player",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/container_card_player",
+    "bounds": "0,0,540,887",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.smile.gifmaker:id/growth_card_recommend_reason",
+    "className": "TextView",
+    "text": "6.27万人点赞过",
+    "bounds": "387,124,516,154",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.smile.gifmaker:id/growth_card_panel_container",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/growth_card_panel_container",
+    "bounds": "24,500,516,800",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.smile.gifmaker:id/growth_card_refresh_container",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/growth_card_refresh_container",
+    "bounds": "397,518,504,551",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.smile.gifmaker:id/growth_card_refresh_tips",
+    "className": "TextView",
+    "text": "换精选",
+    "bounds": "397,518,469,551",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.smile.gifmaker:id/growth_card_recycler_view",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/growth_card_recycler_view",
+    "bounds": "36,588,516,779",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "36,588,156,779",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "bounds": "36,589,144,777",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.smile.gifmaker:id/iv_user_avatar",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/iv_user_avatar",
+    "bounds": "49,604,130,685",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.smile.gifmaker:id/tv_user_nick_name",
+    "className": "TextView",
+    "text": "@小橙子先生(原创)",
+    "bounds": "36,685,144,714",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/tv_follow_btn",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "42,723,138,759",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "156,588,276,779",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "bounds": "156,589,264,777",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/iv_user_avatar",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/iv_user_avatar",
+    "bounds": "169,604,250,685",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.smile.gifmaker:id/tv_user_nick_name",
+    "className": "TextView",
+    "text": "@一只静猪猪🐷",
+    "bounds": "156,685,264,714",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/tv_follow_btn",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "162,723,258,759",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "276,588,396,779",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "bounds": "276,589,384,777",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.smile.gifmaker:id/iv_user_avatar",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/iv_user_avatar",
+    "bounds": "289,604,370,685",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.smile.gifmaker:id/tv_user_nick_name",
+    "className": "TextView",
+    "text": "@欧阳一家",
+    "bounds": "276,685,384,714",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.smile.gifmaker:id/tv_follow_btn",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "282,723,378,759",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "396,588,516,779",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/follow_card_user_item_bg",
+    "bounds": "396,589,504,777",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.smile.gifmaker:id/iv_user_avatar",
+    "className": "ImageView",
+    "text": "com.smile.gifmaker:id/iv_user_avatar",
+    "bounds": "409,604,490,685",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.smile.gifmaker:id/tv_user_nick_name",
+    "className": "TextView",
+    "text": "@张轶程_越努力越幸运🔥",
+    "bounds": "396,685,504,714",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.smile.gifmaker:id/tv_follow_btn",
+    "className": "TextView",
+    "text": "关注",
+    "bounds": "402,723,498,759",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "com.smile.gifmaker:id/footer",
+    "className": "TextView",
+    "text": "上滑继续观看视频",
+    "bounds": "183,836,357,860",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "com.smile.gifmaker:id/featured_left_guest_login",
+    "className": "LinearLayout",
+    "text": "com.smile.gifmaker:id/featured_left_guest_login",
+    "bounds": "16,48,195,96",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "com.smile.gifmaker:id/guest_name",
+    "className": "TextView",
+    "text": "游客**2400",
+    "bounds": "61,61,153,82",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "com.smile.gifmaker:id/nasa_featured_default_search_view",
+    "className": "ImageView",
+    "text": "查找",
+    "bounds": "464,39,524,99",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "com.smile.gifmaker:id/tab_layout",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/tab_layout",
+    "bounds": "0,887,540,960",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Home",
+    "bounds": "0,887,108,960",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Home",
+    "bounds": "21,910,86,938",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Featured",
+    "bounds": "108,887,216,960",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Featured",
+    "bounds": "114,910,209,938",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Message",
+    "bounds": "324,887,432,960",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Message",
+    "bounds": "329,910,426,938",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Me",
+    "bounds": "432,887,540,960",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Me",
+    "bounds": "469,910,503,938",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "com.smile.gifmaker:id/shoot_container",
+    "className": "ViewGroup",
+    "text": "拍摄",
+    "bounds": "213,887,326,960",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "com.smile.gifmaker:id/kem_task_pendant_new",
+    "className": "FrameLayout",
+    "text": "com.smile.gifmaker:id/kem_task_pendant_new",
+    "bounds": "0,200,126,320",
+    "children": []
+  }
+]

@@ -1,0 +1,865 @@
+{
+  "version": "1.0",
+  "description": "Watch 20 Kuaishou videos. For each video: watch 5-10 seconds, randomly like about 30% of videos, randomly comment 'nice video' on 10% of videos, then swipe up to next video",
+  "timestamp": "20260109_200618",
+  "total_actions": 116,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: '\u5feb\u624b' (TextView) at coordinates (540, 976)",
+      "x": 540,
+      "y": 976,
+      "element_index": 4,
+      "element_text": "\u5feb\u624b",
+      "element_bounds": "443,861,638,1092"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.171827129372196 seconds",
+      "duration": 5.171827129372196
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 16: '\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e7460' (ViewGroup) at coordinates (992, 916)",
+      "x": 992,
+      "y": 916,
+      "element_index": 16,
+      "element_text": "\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e7460",
+      "element_bounds": "904,820,1080,1013"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.802216317876711 seconds",
+      "duration": 5.802216317876711
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 9.367756653468213 seconds",
+      "duration": 9.367756653468213
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 9.839042171768456 seconds",
+      "duration": 9.839042171768456
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 8.632576993478699 seconds",
+      "duration": 8.632576993478699
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 8.786356048385954 seconds",
+      "duration": 8.786356048385954
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 9.323956790815453 seconds",
+      "duration": 9.323956790815453
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 19: '1.2\u4e07' (TextView) at coordinates (997, 974)",
+      "x": 997,
+      "y": 974,
+      "element_index": 19,
+      "element_text": "1.2\u4e07",
+      "element_bounds": "955,955,1040,994"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.626744342328914 seconds",
+      "duration": 5.626744342328914
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.891203520226719 seconds",
+      "duration": 5.891203520226719
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.986744126992318 seconds",
+      "duration": 5.986744126992318
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 22: '1001' (TextView) at coordinates (998, 1167)",
+      "x": 998,
+      "y": 1167,
+      "element_index": 22,
+      "element_text": "1001",
+      "element_bounds": "958,1148,1038,1187"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1.5 seconds",
+      "duration": 1.5
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 63: '\u53d1\u6761\u6709\u7231\u8bc4\u8bba~' (TextView) at coordinates (562, 1847)",
+      "x": 562,
+      "y": 1847,
+      "element_index": 63,
+      "element_text": "\u53d1\u6761\u6709\u7231\u8bc4\u8bba~",
+      "element_bounds": "74,1794,1050,1900"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 83: '\u53d1\u6761\u6709\u7231\u8bc4\u8bba~' (EditText) at coordinates (540, 1447)",
+      "x": 540,
+      "y": 1447,
+      "element_index": 83,
+      "element_text": "\u53d1\u6761\u6709\u7231\u8bc4\u8bba~",
+      "element_bounds": "30,1367,1050,1527"
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'nice video' (clear=False)",
+      "text": "nice video"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 93: '\u53d1\u9001' (Button) at coordinates (973, 1587)",
+      "x": 973,
+      "y": 1587,
+      "element_index": 93,
+      "element_text": "\u53d1\u9001",
+      "element_bounds": "896,1544,1050,1631"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: '\u5173\u95ed\u8bc4\u8bba\u533a' (ImageView) at coordinates (1005, 637)",
+      "x": 1005,
+      "y": 637,
+      "element_index": 21,
+      "element_text": "\u5173\u95ed\u8bc4\u8bba\u533a",
+      "element_bounds": "953,582,1058,692"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 9.648038666055509 seconds",
+      "duration": 9.648038666055509
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 19: '\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e6.1\u4e07' (ViewGroup) at coordinates (992, 916)",
+      "x": 992,
+      "y": 916,
+      "element_index": 19,
+      "element_text": "\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e6.1\u4e07",
+      "element_bounds": "904,820,1080,1013"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 7.7139504348979635 seconds",
+      "duration": 7.7139504348979635
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 7.770649769697699 seconds",
+      "duration": 7.770649769697699
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 9.52110129152675 seconds",
+      "duration": 9.52110129152675
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: '\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1' (ViewGroup) at coordinates (997, 917)",
+      "x": 997,
+      "y": 917,
+      "element_index": 21,
+      "element_text": "\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1",
+      "element_bounds": "915,821,1080,1014"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 24: '\u8bc4\u8bba' (ViewGroup) at coordinates (997, 1110)",
+      "x": 997,
+      "y": 1110,
+      "element_index": 24,
+      "element_text": "\u8bc4\u8bba",
+      "element_bounds": "915,1014,1080,1207"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1.5 seconds",
+      "duration": 1.5
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'nice video' (clear=False)",
+      "text": "nice video"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: '\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1' (ViewGroup) at coordinates (997, 917)",
+      "x": 997,
+      "y": 917,
+      "element_index": 21,
+      "element_text": "\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1",
+      "element_bounds": "915,821,1080,1014"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 6.642719247293761 seconds",
+      "duration": 6.642719247293761
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: '\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1' (ViewGroup) at coordinates (997, 917)",
+      "x": 997,
+      "y": 917,
+      "element_index": 21,
+      "element_text": "\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1",
+      "element_bounds": "915,821,1080,1014"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 24: '\u8bc4\u8bba' (ViewGroup) at coordinates (997, 1110)",
+      "x": 997,
+      "y": 1110,
+      "element_index": 24,
+      "element_text": "\u8bc4\u8bba",
+      "element_bounds": "915,1014,1080,1207"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1.5 seconds",
+      "duration": 1.5
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'nice video' (clear=False)",
+      "text": "nice video"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: '\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1' (ViewGroup) at coordinates (997, 917)",
+      "x": 997,
+      "y": 917,
+      "element_index": 21,
+      "element_text": "\u672a\u70b9\u8d5e\uff0c\u70b9\u8d5e1",
+      "element_bounds": "915,821,1080,1014"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 9.031375063837944 seconds",
+      "duration": 9.031375063837944
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 42: '\u5173\u95ed\u8bc4\u8bba\u533a' (ImageView) at coordinates (1005, 631)",
+      "x": 1005,
+      "y": 631,
+      "element_index": 42,
+      "element_text": "\u5173\u95ed\u8bc4\u8bba\u533a",
+      "element_bounds": "953,576,1058,686"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 8.295927609526043 seconds",
+      "duration": 8.295927609526043
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 8.162029876108196 seconds",
+      "duration": 8.162029876108196
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: '\u5df2\u70b9\u8d5e\uff0c\u70b9\u8d5e2' (FrameLayout) at coordinates (727, 245)",
+      "x": 727,
+      "y": 245,
+      "element_index": 21,
+      "element_text": "\u5df2\u70b9\u8d5e\uff0c\u70b9\u8d5e2",
+      "element_bounds": "693,206,761,285"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 6.875847519568284 seconds",
+      "duration": 6.875847519568284
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: '\u5df2\u70b9\u8d5e\uff0c\u70b9\u8d5e2' (FrameLayout) at coordinates (727, 245)",
+      "x": 727,
+      "y": 245,
+      "element_index": 21,
+      "element_text": "\u5df2\u70b9\u8d5e\uff0c\u70b9\u8d5e2",
+      "element_bounds": "693,206,761,285"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.595378775478012 seconds",
+      "duration": 5.595378775478012
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.320349127346324 seconds",
+      "duration": 5.320349127346324
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1400) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1400,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.550085938471274 seconds",
+      "duration": 5.550085938471274
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 20: '\u8bc4\u8bba125' (ViewGroup) at coordinates (992, 1109)",
+      "x": 992,
+      "y": 1109,
+      "element_index": 20,
+      "element_text": "\u8bc4\u8bba125",
+      "element_bounds": "904,1013,1080,1206"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1.5 seconds",
+      "duration": 1.5
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "InputTextActionEvent",
+      "action_type": "input_text",
+      "description": "Input text: 'nice video' (clear=True)",
+      "text": "nice video"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 0.5 seconds",
+      "duration": 0.5
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 42: 'com.smile.gifmaker:id/kem_task_pendant_new' (FrameLayout) at coordinates (129, 465)",
+      "x": 129,
+      "y": 465,
+      "element_index": 42,
+      "element_text": "com.smile.gifmaker:id/kem_task_pendant_new",
+      "element_bounds": "0,341,259,589"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    },
+    {
+      "type": "KeyPressActionEvent",
+      "action_type": "key_press",
+      "description": "Pressed key BACK",
+      "keycode": 4,
+      "key_name": "BACK"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 1 seconds",
+      "duration": 1.0
+    }
+  ]
+}

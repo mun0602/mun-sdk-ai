@@ -1,0 +1,98 @@
+[
+  {
+    "type": "CodeActInputEvent"
+  },
+  {
+    "type": "CodeActResponseEvent",
+    "thought": "The precondition is met as I am currently on the home screen (Lawnchair app) and can see the \"Browser\" app. My next step is to open the \"Browser\" app.",
+    "code": "open_app(\"Browser\")",
+    "usage": {
+      "request_tokens": 1999,
+      "response_tokens": 51,
+      "total_tokens": 2050,
+      "requests": 1
+    }
+  },
+  {
+    "type": "CodeActCodeEvent",
+    "code": "open_app(\"Browser\")"
+  },
+  {
+    "type": "CodeActOutputEvent",
+    "output": "```json\n{\n    \"package\": \"com.android.browser\"\n}\n```\n"
+  },
+  {
+    "type": "CodeActInputEvent"
+  },
+  {
+    "type": "CodeActResponseEvent",
+    "thought": "",
+    "code": "type(\"google.vn\", 3, clear=True)",
+    "usage": {
+      "request_tokens": 4657,
+      "response_tokens": 18,
+      "total_tokens": 4675,
+      "requests": 1
+    }
+  },
+  {
+    "type": "CodeActCodeEvent",
+    "code": "type(\"google.vn\", 3, clear=True)"
+  },
+  {
+    "type": "CodeActOutputEvent",
+    "output": "Tapped element with index 3 at coordinates (267, 75)\nText input completed (clear=True): google.vn\n"
+  },
+  {
+    "type": "CodeActInputEvent"
+  },
+  {
+    "type": "CodeActResponseEvent",
+    "thought": "I have successfully entered \"google.vn\" into the address bar. Now, I need to press the \"Enter\" key to navigate to the website.",
+    "code": "system_button(\"Enter\")",
+    "usage": {
+      "request_tokens": 2681,
+      "response_tokens": 43,
+      "total_tokens": 6790,
+      "requests": 1
+    }
+  },
+  {
+    "type": "CodeActCodeEvent",
+    "code": "system_button(\"Enter\")"
+  },
+  {
+    "type": "CodeActOutputEvent",
+    "output": "Pressed key ENTER\n"
+  },
+  {
+    "type": "CodeActInputEvent"
+  },
+  {
+    "type": "CodeActResponseEvent",
+    "thought": "",
+    "code": "complete(success=True, reason=\"Successfully opened google.vn\")",
+    "usage": {
+      "request_tokens": 7929,
+      "response_tokens": 19,
+      "total_tokens": 7948,
+      "requests": 1
+    }
+  },
+  {
+    "type": "CodeActCodeEvent",
+    "code": "complete(success=True, reason=\"Successfully opened google.vn\")"
+  },
+  {
+    "type": "CodeActEndEvent",
+    "success": true,
+    "reason": "Successfully opened google.vn",
+    "code_executions": 4
+  },
+  {
+    "type": "CodeActEndEvent",
+    "success": true,
+    "reason": "Successfully opened google.vn",
+    "code_executions": 4
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "description": "Open Kuaishou and watch 2 videos, swipe up after each",
+  "timestamp": "20260109_195655",
+  "total_actions": 5,
+  "actions": [
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 4: '\u5feb\u624b' (TextView) at coordinates (540, 976)",
+      "x": 540,
+      "y": 976,
+      "element_index": 4,
+      "element_text": "\u5feb\u624b",
+      "element_bounds": "443,861,638,1092"
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 3.0 seconds",
+      "duration": 3.0
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.0 seconds",
+      "duration": 5.0
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1000) to (540, 400) in 500 milliseconds",
+      "start_x": 540,
+      "start_y": 1000,
+      "end_x": 540,
+      "end_y": 400,
+      "duration_ms": 500
+    },
+    {
+      "type": "WaitEvent",
+      "action_type": "wait",
+      "description": "Wait for 5.0 seconds",
+      "duration": 5.0
+    }
+  ]
+}

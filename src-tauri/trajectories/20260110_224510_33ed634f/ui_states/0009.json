@@ -1,0 +1,258 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.android.browser:id/iconcombo",
+    "className": "FrameLayout",
+    "text": "Page info",
+    "bounds": "14,36,80,114",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.android.browser:id/url",
+    "className": "AutoCompleteTextView",
+    "text": "https://dtdp.bio/",
+    "bounds": "80,36,453,114",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.android.browser:id/tab_switcher",
+    "className": "ImageButton",
+    "text": "Page manager",
+    "bounds": "468,36,540,114",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "android.webkit.WebView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "",
+    "className": "WebView",
+    "text": "Tuyển tập Phát thanh Minh Huệ Kiên trì học thuộc Pháp – 🌸🌸🌸",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "wrapper",
+    "className": "View",
+    "text": "wrapper",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,226",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "View",
+    "text": "Logo 🌸🌸🌸 ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "24,138,250,202",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "24,138,84,201",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "Image",
+    "text": "Logo",
+    "bounds": "27,141,81,198",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "🌸🌸🌸",
+    "bounds": "108,142,207,175",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "ĐỆ TỬ ĐẠI PHÁP",
+    "bounds": "108,183,250,198",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "456,138,516,201",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "Button",
+    "text": "android.widget.Button",
+    "bounds": "456,138,516,201",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "main",
+    "className": "View",
+    "text": "main",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "0,114,540,960",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,114,540,646",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "android.widget.TextView",
+    "bounds": "0,114,540,645",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,234,540,549",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "View",
+    "text": "TRANG CHỦ",
+    "bounds": "36,241,165,270",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "Image",
+    "text": "android.widget.Image",
+    "bounds": "36,243,60,268",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "TRANG CHỦ",
+    "bounds": "66,246,165,265",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "/",
+    "bounds": "180,240,192,270",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "AUDIO",
+    "bounds": "228,246,282,265",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Tuyển tập Phát thanh Minh Huệ Kiên trì học thuộc Pháp",
+    "bounds": "36,312,504,483",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Ban Biên Tập",
+    "bounds": "36,519,156,546",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "View",
+    "text": "18/05/2024",
+    "bounds": "208,519,315,546",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "0,645,540,960",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "View",
+    "text": "android.view.View",
+    "bounds": "36,717,504,960",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Học thuộc Pháp giúp chúng ta ghi nhớ sâu sắc những lời dạy của Sư Phụ.",
+    "bounds": "36,717,504,864",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "Đồng tu xin tuyển tập lại Phát thanh Minh Huệ Kiên trì học thuộc Pháp. Bản quyền thuộc về Minh Huệ Việt ngữ.",
+    "bounds": "36,922,504,960",
+    "children": []
+  }
+]

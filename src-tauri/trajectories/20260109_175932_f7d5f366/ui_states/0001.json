@@ -1,0 +1,322 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "",
+    "className": "SlidingPaneLayout",
+    "text": "androidx.slidingpanelayout.widget.SlidingPaneLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "ViewPager",
+    "text": "androidx.viewpager.widget.ViewPager",
+    "bounds": "0,0,540,960",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.smile.gifmaker:id/refresh_layout",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/refresh_layout",
+    "bounds": "0,110,540,888",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.smile.gifmaker:id/recycler_view",
+    "className": "RecyclerView",
+    "text": "com.smile.gifmaker:id/recycler_view",
+    "bounds": "0,215,540,888",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "琳琳的作品",
+    "bounds": "3,218,270,737",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.smile.gifmaker:id/right_bottom_text",
+    "className": "TextView",
+    "text": "914",
+    "bounds": "225,697,255,722",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "丧钟克里斯的作品",
+    "bounds": "270,115,537,518",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.smile.gifmaker:id/avatar_right_bottom_username_view",
+    "className": "TextView",
+    "text": "丧钟克里斯",
+    "bounds": "315,478,400,501",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.smile.gifmaker:id/right_bottom_text",
+    "className": "TextView",
+    "text": "14.3k",
+    "bounds": "478,478,522,503",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "大锅铲子的作品",
+    "bounds": "3,632,270,888",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "宝儿姐追剧的作品",
+    "bounds": "270,516,537,888",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.smile.gifmaker:id/avatar_right_bottom_username_view",
+    "className": "TextView",
+    "text": "宝儿姐追剧",
+    "bounds": "315,880,400,888",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.smile.gifmaker:id/right_bottom_text",
+    "className": "TextView",
+    "text": "4.0k",
+    "bounds": "488,879,522,888",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.smile.gifmaker:id/title_root",
+    "className": "ViewGroup",
+    "text": "com.smile.gifmaker:id/title_root",
+    "bounds": "0,0,540,102",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.smile.gifmaker:id/left_text",
+    "className": "TextView",
+    "text": "Log In",
+    "bounds": "17,49,99,89",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.smile.gifmaker:id/kcube_tab_strip",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/kcube_tab_strip",
+    "bounds": "100,36,467,102",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "100,36,142,102",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.smile.gifmaker:id/textView",
+    "className": "View",
+    "text": "Mall",
+    "bounds": "100,36,128,102",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "142,36,240,102",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.smile.gifmaker:id/follow_tab_text",
+    "className": "View",
+    "text": "Follow",
+    "bounds": "156,36,226,102",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "240,36,328,102",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.smile.gifmaker:id/textView",
+    "className": "View",
+    "text": "Trend",
+    "bounds": "254,36,314,102",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "328,36,399,102",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "com.smile.gifmaker:id/textView",
+    "className": "View",
+    "text": "Live",
+    "bounds": "342,36,385,102",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "399,36,467,102",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "com.smile.gifmaker:id/follow_tab_text",
+    "className": "View",
+    "text": "Nearby",
+    "bounds": "413,36,467,102",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "com.smile.gifmaker:id/search_btn",
+    "className": "ImageView",
+    "text": "Search",
+    "bounds": "467,39,527,99",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "com.smile.gifmaker:id/tab_layout",
+    "className": "HorizontalScrollView",
+    "text": "com.smile.gifmaker:id/tab_layout",
+    "bounds": "0,887,540,960",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Home",
+    "bounds": "0,887,108,960",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Home",
+    "bounds": "21,910,86,938",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Featured",
+    "bounds": "108,887,216,960",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Featured",
+    "bounds": "114,910,209,938",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Message",
+    "bounds": "324,887,432,960",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Message",
+    "bounds": "329,910,426,938",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "ActionBar$c",
+    "text": "Me",
+    "bounds": "432,887,540,960",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "android:id/text1",
+    "className": "CheckedTextView",
+    "text": "Me",
+    "bounds": "469,910,503,938",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "com.smile.gifmaker:id/shoot_container",
+    "className": "ViewGroup",
+    "text": "Record",
+    "bounds": "213,887,326,960",
+    "children": []
+  }
+]
