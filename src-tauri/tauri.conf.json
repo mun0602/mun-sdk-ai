@@ -53,13 +53,6 @@
   "plugins": {
     "shell": {
       "open": true
-    },
-    "updater": {
-      "active": false,
-      "endpoints": [
-        "https://raw.githubusercontent.com/mun0602/droidrun_gui_tauri_v2/main/updater.json"
-      ],
-      "pubkey": "YOUR_PUBLIC_KEY_HERE"
     }
   }
 }
