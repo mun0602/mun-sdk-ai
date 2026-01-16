@@ -10,16 +10,32 @@ const CREATE_NO_WINDOW: u32 = 0x08000000;
 
 /// Helper to create a command with hidden window on Windows
 fn new_command(program: &str) -> Command {
+    #[cfg(windows)]
+    let mut cmd = Command::new(program);
+    #[cfg(not(windows))]
     let cmd = Command::new(program);
+    
     #[cfg(windows)]
     cmd.creation_flags(CREATE_NO_WINDOW);
     cmd
 }
 
+/// Find available Python executable (python3.11 > python3 > python)
+fn get_python_cmd() -> &'static str {
+    if Command::new("python3.11").arg("--version").output().is_ok() {
+        return "python3.11";
+    }
+    if Command::new("python3").arg("--version").output().is_ok() {
+        return "python3";
+    }
+    "python"
+}
+
 /// Kiểm tra Python đã cài đặt chưa
 #[command]
 pub async fn check_python_installed() -> Result<bool, String> {
-    let result = new_command("python")
+    let python_cmd = get_python_cmd();
+    let result = new_command(python_cmd)
         .args(["--version"])
         .output();
 
@@ -37,7 +53,8 @@ pub async fn check_python_installed() -> Result<bool, String> {
 /// Lấy phiên bản Python
 #[command]
 pub async fn get_python_version() -> Result<String, String> {
-    let output = new_command("python")
+    let python_cmd = get_python_cmd();
+    let output = new_command(python_cmd)
         .args(["--version"])
         .output()
         .or_else(|_| {
@@ -58,7 +75,8 @@ pub async fn get_python_version() -> Result<String, String> {
 /// Lấy phiên bản droidrun
 #[command]
 pub async fn get_droidrun_version() -> Result<String, String> {
-    let output = new_command("python")
+    let python_cmd = get_python_cmd();
+    let output = new_command(python_cmd)
         .args(["-c", "import droidrun; print(droidrun.__version__)"])
         .output()
         .or_else(|_| {

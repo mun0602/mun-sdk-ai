@@ -388,7 +388,18 @@ export const useProfileStore = create((set, get) => ({
         const exists = profiles.find(p => p.id === defaultProfile.id);
         if (!exists) {
           try {
-            const newProfile = await invoke('create_profile', { profile: defaultProfile });
+            const newProfile = await invoke('create_profile', {
+              id: defaultProfile.id,
+              name: defaultProfile.name,
+              provider: defaultProfile.provider,
+              task: defaultProfile.task,
+              max_steps: defaultProfile.max_steps,
+              vision: defaultProfile.vision,
+              reasoning: defaultProfile.reasoning,
+              device_ids: defaultProfile.device_ids,
+              created_at: defaultProfile.created_at,
+              updated_at: defaultProfile.updated_at,
+            });
             profiles.push(newProfile);
           } catch (e) {
             // Ignore "already exists" errors, only warn for other errors
@@ -413,7 +424,18 @@ export const useProfileStore = create((set, get) => ({
 
   createProfile: async (profile) => {
     try {
-      const newProfile = await invoke('create_profile', { profile });
+      const newProfile = await invoke('create_profile', {
+        id: profile.id,
+        name: profile.name,
+        provider: profile.provider,
+        task: profile.task,
+        max_steps: profile.max_steps,
+        vision: profile.vision,
+        reasoning: profile.reasoning,
+        device_ids: profile.device_ids,
+        created_at: profile.created_at,
+        updated_at: profile.updated_at,
+      });
       set(state => ({
         profiles: [...state.profiles, newProfile],
         activeProfile: newProfile,
@@ -428,7 +450,18 @@ export const useProfileStore = create((set, get) => ({
 
   updateProfile: async (profile) => {
     try {
-      const updated = await invoke('update_profile', { profile });
+      const updated = await invoke('update_profile', {
+        id: profile.id,
+        name: profile.name,
+        provider: profile.provider,
+        task: profile.task,
+        max_steps: profile.max_steps,
+        vision: profile.vision,
+        reasoning: profile.reasoning,
+        device_ids: profile.device_ids,
+        created_at: profile.created_at,
+        updated_at: profile.updated_at,
+      });
       set(state => ({
         profiles: state.profiles.map(p => p.id === updated.id ? updated : p),
         activeProfile: state.activeProfile?.id === updated.id ? updated : state.activeProfile,

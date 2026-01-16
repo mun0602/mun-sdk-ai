@@ -88,7 +88,11 @@ fn get_adb_executable() -> String {
 
 /// Helper to create a command with hidden window on Windows
 fn new_command(program: &str) -> Command {
+    #[cfg(windows)]
+    let mut cmd = Command::new(program);
+    #[cfg(not(windows))]
     let cmd = Command::new(program);
+    
     #[cfg(windows)]
     cmd.creation_flags(CREATE_NO_WINDOW);
     cmd
@@ -431,9 +435,19 @@ pub async fn scan_emulator_ports() -> Result<Vec<String>, String> {
 pub async fn check_droidrun_portal(device_id: String) -> Result<AdbResult, String> {
     println!("[DroidRun] Checking Portal on device: {}", device_id);
     
-    let output = new_command("py")
+    let output = new_command("python3.11")
         .args(["-m", "droidrun", "ping", "-d", &device_id])
         .output()
+        .or_else(|_| {
+            new_command("python3")
+                .args(["-m", "droidrun", "ping", "-d", &device_id])
+                .output()
+        })
+        .or_else(|_| {
+            new_command("python")
+                .args(["-m", "droidrun", "ping", "-d", &device_id])
+                .output()
+        })
         .map_err(|e| format!("Không thể chạy droidrun ping: {}", e))?;
     
     let stdout = String::from_utf8_lossy(&output.stdout).to_string();
@@ -456,9 +470,19 @@ pub async fn check_droidrun_portal(device_id: String) -> Result<AdbResult, Strin
 pub async fn setup_droidrun_portal(device_id: String) -> Result<AdbResult, String> {
     println!("[DroidRun] Installing Portal on device: {}", device_id);
     
-    let output = new_command("py")
+    let output = new_command("python3.11")
         .args(["-m", "droidrun", "setup", "-d", &device_id])
         .output()
+        .or_else(|_| {
+            new_command("python3")
+                .args(["-m", "droidrun", "setup", "-d", &device_id])
+                .output()
+        })
+        .or_else(|_| {
+            new_command("python")
+                .args(["-m", "droidrun", "setup", "-d", &device_id])
+                .output()
+        })
         .map_err(|e| format!("Không thể chạy droidrun setup: {}", e))?;
     
     let stdout = String::from_utf8_lossy(&output.stdout).to_string();

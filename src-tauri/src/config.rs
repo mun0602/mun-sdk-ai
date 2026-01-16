@@ -196,7 +196,34 @@ pub async fn save_config(config: AppConfig) -> Result<bool, String> {
 
 /// Tạo profile mới
 #[command]
-pub async fn create_profile(profile: Profile) -> Result<Profile, String> {
+pub async fn create_profile(
+    id: String,
+    name: String,
+    provider: AIProvider,
+    task: String,
+    max_steps: i32,
+    vision: bool,
+    reasoning: bool,
+    device_ids: Vec<String>,
+    created_at: String,
+    updated_at: String,
+) -> Result<Profile, String> {
+    let profile = Profile {
+        id,
+        name: name.clone(),
+        provider,
+        task,
+        max_steps,
+        vision,
+        reasoning,
+        device_ids,
+        created_at,
+        updated_at,
+        credentials: HashMap::new(),
+        app_preferences: HashMap::new(),
+        custom_variables: HashMap::new(),
+    };
+    
     let mut config = load_config().await?;
 
     // Kiểm tra trùng tên
@@ -212,15 +239,47 @@ pub async fn create_profile(profile: Profile) -> Result<Profile, String> {
 
 /// Cập nhật profile
 #[command]
-pub async fn update_profile(profile: Profile) -> Result<Profile, String> {
+pub async fn update_profile(
+    id: String,
+    name: String,
+    provider: AIProvider,
+    task: String,
+    max_steps: i32,
+    vision: bool,
+    reasoning: bool,
+    device_ids: Vec<String>,
+    created_at: String,
+    updated_at: String,
+) -> Result<Profile, String> {
     let mut config = load_config().await?;
 
-    if let Some(existing) = config.profiles.iter_mut().find(|p| p.id == profile.id) {
-        *existing = profile.clone();
+    if let Some(existing) = config.profiles.iter_mut().find(|p| p.id == id) {
+        // Preserve credentials and other backend-only fields
+        let credentials = existing.credentials.clone();
+        let app_preferences = existing.app_preferences.clone();
+        let custom_variables = existing.custom_variables.clone();
+        
+        *existing = Profile {
+            id: id.clone(),
+            name,
+            provider,
+            task,
+            max_steps,
+            vision,
+            reasoning,
+            device_ids,
+            created_at,
+            updated_at,
+            credentials,
+            app_preferences,
+            custom_variables,
+        };
+        
+        let result = existing.clone();
         save_config(config).await?;
-        Ok(profile)
+        Ok(result)
     } else {
-        Err(format!("Không tìm thấy profile với ID: {}", profile.id))
+        Err(format!("Không tìm thấy profile với ID: {}", id))
     }
 }
 

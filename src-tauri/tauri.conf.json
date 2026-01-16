@@ -48,8 +48,7 @@
       "webviewInstallMode": {
         "type": "embedBootstrapper"
       }
-    },
-    "createUpdaterArtifacts": "v1Compatible"
+    }
   },
   "plugins": {
     "shell": {

@@ -565,6 +565,18 @@ function ProfileModal({ profile, onClose }) {
 
   const handleSubmit = async () => {
     try {
+      // Validation
+      if (!formData.name.trim()) {
+        alert('Vui lòng nhập tên profile');
+        return;
+      }
+
+      const finalModel = selectedProvider?.allowCustomModel ? customModel : formData.provider.model;
+      if (!finalModel) {
+        alert('Vui lòng chọn model');
+        return;
+      }
+
       // For mun-ai, backend will inject credentials
       const finalBaseUrl = formData.provider.base_url;
       const finalApiKey = selectedProvider?.hasApiKey === false ? '' : formData.provider.api_key;
@@ -573,11 +585,14 @@ function ProfileModal({ profile, onClose }) {
         ...formData,
         provider: {
           ...formData.provider,
-          model: selectedProvider?.allowCustomModel ? customModel : formData.provider.model,
+          model: finalModel,
           base_url: finalBaseUrl,
           api_key: finalApiKey,
         }
       };
+      
+      console.log('[ProfileModal] Submitting:', submitData);
+      
       if (profile) {
         await updateProfile(submitData);
       } else {
@@ -586,7 +601,8 @@ function ProfileModal({ profile, onClose }) {
       }
       onClose();
     } catch (e) {
-      console.error(e);
+      console.error('[ProfileModal] Error:', e);
+      alert('Lỗi: ' + (e.message || e));
     }
   };
 

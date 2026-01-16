@@ -17,7 +17,11 @@ const CREATE_NO_WINDOW: u32 = 0x08000000;
 
 /// Helper to create a tokio command with hidden window on Windows
 fn new_async_command(program: &str) -> Command {
+    #[cfg(windows)]
+    let mut std_cmd = std::process::Command::new(program);
+    #[cfg(not(windows))]
     let std_cmd = std::process::Command::new(program);
+    
     #[cfg(windows)]
     std_cmd.creation_flags(CREATE_NO_WINDOW);
     Command::from(std_cmd)

@@ -60,7 +60,11 @@ pub fn get_bluestacks_path() -> Option<String> {
 
 /// Helper to create a command with hidden window on Windows
 fn new_command(program: &str) -> Command {
+    #[cfg(windows)]
+    let mut cmd = Command::new(program);
+    #[cfg(not(windows))]
     let cmd = Command::new(program);
+    
     #[cfg(windows)]
     cmd.creation_flags(CREATE_NO_WINDOW);
     cmd
